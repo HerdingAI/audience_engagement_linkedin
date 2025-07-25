@@ -1,0 +1,28 @@
+# LinkedIn Automation Crontab Configuration
+# Add these lines to your crontab to run the automation 4 times a week
+# at random times between 7:00 AM and 9:45 AM on weekdays
+#
+# To install: crontab -e
+# Then add the lines below (uncomment them first by removing the # at the start)
+
+# Monday: Random time between 7:00-9:45 AM
+# 0 7 * * 1 /bin/bash -c 'sleep $((RANDOM \% 9900)); /home/buntu/Desktop/Apps/Engagement/linkedin_automation.sh'
+
+# Tuesday: Random time between 7:00-9:45 AM  
+# 0 7 * * 2 /bin/bash -c 'sleep $((RANDOM \% 9900)); /home/buntu/Desktop/Apps/Engagement/linkedin_automation.sh'
+
+# Wednesday: Random time between 7:00-9:45 AM
+# 0 7 * * 3 /bin/bash -c 'sleep $((RANDOM \% 9900)); /home/buntu/Desktop/Apps/Engagement/linkedin_automation.sh'
+
+# Thursday: Random time between 7:00-9:45 AM
+# 0 7 * * 4 /bin/bash -c 'sleep $((RANDOM \% 9900)); /home/buntu/Desktop/Apps/Engagement/linkedin_automation.sh'
+
+# Friday: Random time between 7:00-9:45 AM
+# 0 7 * * 5 /bin/bash -c 'sleep $((RANDOM \% 9900)); /home/buntu/Desktop/Apps/Engagement/linkedin_automation.sh'
+
+# Alternative: Single entry that runs on weekdays with built-in randomization
+# This will run every weekday at 7:00 AM, but the script itself has logic to randomly skip days
+# 0 7 * * 1-5 /home/buntu/Desktop/Apps/Engagement/linkedin_automation.sh
+
+# Note: 9900 seconds = 2 hours 45 minutes (7:00 AM + 2:45 = 9:45 AM)
+# The script has additional built-in randomization for human-like behavior

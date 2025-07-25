@@ -1,0 +1,1504 @@
+
+2025-07-23 07:25:50,529 - INFO - Database setup completed
+2025-07-23 07:25:50,529 - INFO - Current liking statistics:
+2025-07-23 07:25:50,548 - INFO - Profile status breakdown:
+2025-07-23 07:25:50,548 - INFO -   maintenance: 8448
+2025-07-23 07:25:50,549 - INFO -   not_started: 92
+2025-07-23 07:25:50,549 - INFO -   week1_liking: 12
+2025-07-23 07:25:50,549 - INFO -   week2_commenting: 16
+2025-07-23 07:25:50,549 - INFO -   week3_invitation: 62
+2025-07-23 07:25:50,549 - INFO - Total posts with URN: 3957
+2025-07-23 07:25:50,549 - INFO - Posts already liked: 42
+2025-07-23 07:25:50,549 - INFO - Failed likes: 23
+2025-07-23 07:25:50,549 - INFO - Week1 candidates ready for liking: 8
+2025-07-23 07:25:50,549 - INFO - DEBUG - Profiles in week1_liking status: 12
+2025-07-23 07:25:50,549 - INFO - DEBUG - Posts with recent dates (<21 days): 103
+2025-07-23 07:25:50,549 - INFO - Last liked: 2025-07-22 11:45:12
+2025-07-23 07:25:50,549 - INFO - Starting post liking batch (max 25 likes)
+2025-07-23 07:25:50,549 - INFO - Validating LinkedIn credentials...
+2025-07-23 07:25:50,975 - INFO - LinkedIn validation successful. User ID: BWhT9OIznT
+2025-07-23 07:25:50,980 - INFO - Found 19 posts ready for liking
+2025-07-23 07:25:50,980 - INFO - Processing 19 posts
+2025-07-23 07:25:50,980 - INFO - Processing post 1/19
+2025-07-23 07:25:50,980 - INFO - Liking post 3466 by Richard Simone
+2025-07-23 07:25:50,980 - INFO - Attempting to like post: urn:li:activity:7353486406695960576
+2025-07-23 07:25:51,228 - WARNING - URN mismatch for urn:li:activity:7353486406695960576. Attempting to extract correct URN.
+2025-07-23 07:25:51,228 - INFO - Found correct URN: urn:li:ugcPost:7353486405827739649. Retrying...
+2025-07-23 07:25:51,503 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-23 07:25:51,511 - INFO - Marked post 3466 as liked
+2025-07-23 07:25:51,519 - INFO - Updated profile 23 to status 'week2_commenting'. Liked post 3466
+2025-07-23 07:25:51,519 - INFO - ✅ Successfully liked post 3466 by Richard Simone
+2025-07-23 07:25:51,519 - INFO - Human-like delay: 24s...
+2025-07-23 07:26:15,519 - INFO - Processing post 2/19
+2025-07-23 07:26:15,519 - INFO - Liking post 633 by Christine Perna
+2025-07-23 07:26:15,519 - INFO - Attempting to like post: urn:li:activity:7351693708695674881
+2025-07-23 07:26:15,797 - WARNING - URN mismatch for urn:li:activity:7351693708695674881. Attempting to extract correct URN.
+2025-07-23 07:26:15,797 - ERROR - Could not extract correct URN from error: {"message":"java.util.concurrent.ExecutionException: com.linkedin.restli.server.RestLiServiceException [HTTP Status:400]: com.linkedin.restli.client.RestLiResponseException: Response status 400, serviceErrorMessage: Provided threadUrn: urn:li:activity:7351693708695674881 is not the same as the actual threadUrn: urn:li:activity:7351626839620026370","status":400}
+2025-07-23 07:26:15,797 - INFO - Marked post 633 as failed to like: LinkedIn API error
+2025-07-23 07:26:15,798 - ERROR - ❌ Failed to like post 633 by Christine Perna
+2025-07-23 07:26:15,798 - INFO - Human-like delay: 17s...
+2025-07-23 07:26:32,798 - INFO - Processing post 3/19
+2025-07-23 07:26:32,798 - INFO - Liking post 634 by Christine Perna
+2025-07-23 07:26:32,798 - INFO - Attempting to like post: urn:li:activity:7349023147905441793
+2025-07-23 07:26:33,068 - WARNING - URN mismatch for urn:li:activity:7349023147905441793. Attempting to extract correct URN.
+2025-07-23 07:26:33,068 - ERROR - Could not extract correct URN from error: {"message":"java.util.concurrent.ExecutionException: com.linkedin.restli.server.RestLiServiceException [HTTP Status:400]: com.linkedin.restli.client.RestLiResponseException: Response status 400, serviceErrorMessage: Provided threadUrn: urn:li:activity:7349023147905441793 is not the same as the actual threadUrn: urn:li:activity:7348697674155544577","status":400}
+2025-07-23 07:26:33,069 - INFO - Marked post 634 as failed to like: LinkedIn API error
+2025-07-23 07:26:33,069 - ERROR - ❌ Failed to like post 634 by Christine Perna
+2025-07-23 07:26:33,069 - INFO - Human-like delay: 12s...
+2025-07-23 07:26:45,070 - INFO - Processing post 4/19
+2025-07-23 07:26:45,070 - INFO - Liking post 537 by David Somers
+2025-07-23 07:26:45,070 - INFO - Attempting to like post: urn:li:activity:7348365268592619520
+2025-07-23 07:26:45,328 - WARNING - URN mismatch for urn:li:activity:7348365268592619520. Attempting to extract correct URN.
+2025-07-23 07:26:45,328 - INFO - Found correct URN: urn:li:ugcPost:7348141968650027008. Retrying...
+2025-07-23 07:26:45,613 - ERROR - Retry failed: 409 - {"message":"java.util.concurrent.ExecutionException: com.linkedin.restli.server.RestLiServiceException [HTTP Status:409]: com.linkedin.restli.client.RestLiResponseException: Response status 409","status":409}
+2025-07-23 07:26:45,614 - INFO - Marked post 537 as failed to like: LinkedIn API error
+2025-07-23 07:26:45,614 - ERROR - ❌ Failed to like post 537 by David Somers
+2025-07-23 07:26:45,614 - INFO - Human-like delay: 24s...
+2025-07-23 07:27:09,614 - INFO - Processing post 5/19
+2025-07-23 07:27:09,614 - INFO - Liking post 828 by Lawrence Paterson
+2025-07-23 07:27:09,614 - INFO - Attempting to like post: urn:li:activity:7346462345667198978
+2025-07-23 07:27:10,026 - ERROR - LinkedIn API error: 409 - {"message":"java.util.concurrent.ExecutionException: com.linkedin.restli.server.RestLiServiceException [HTTP Status:409]: com.linkedin.restli.client.RestLiResponseException: Response status 409","status":409}
+2025-07-23 07:27:10,027 - INFO - Marked post 828 as failed to like: LinkedIn API error
+2025-07-23 07:27:10,027 - ERROR - ❌ Failed to like post 828 by Lawrence Paterson
+2025-07-23 07:27:10,027 - INFO - Human-like delay: 23s...
+2025-07-23 07:27:33,028 - INFO - Processing post 6/19
+2025-07-23 07:27:33,028 - INFO - Liking post 2422 by Nicole Snaza
+2025-07-23 07:27:33,028 - INFO - Attempting to like post: urn:li:activity:7353336898183938050
+2025-07-23 07:27:33,272 - WARNING - URN mismatch for urn:li:activity:7353336898183938050. Attempting to extract correct URN.
+2025-07-23 07:27:33,272 - ERROR - Could not extract correct URN from error: {"message":"java.util.concurrent.ExecutionException: com.linkedin.restli.server.RestLiServiceException [HTTP Status:400]: com.linkedin.restli.client.RestLiResponseException: Response status 400, serviceErrorMessage: Provided threadUrn: urn:li:activity:7353336898183938050 is not the same as the actual threadUrn: urn:li:activity:7351458661052923904","status":400}
+2025-07-23 07:27:33,273 - INFO - Marked post 2422 as failed to like: LinkedIn API error
+2025-07-23 07:27:33,273 - ERROR - ❌ Failed to like post 2422 by Nicole Snaza
+2025-07-23 07:27:33,273 - INFO - Human-like delay: 21s...
+2025-07-23 07:27:54,274 - INFO - Processing post 7/19
+2025-07-23 07:27:54,274 - INFO - Liking post 2423 by Nicole Snaza
+2025-07-23 07:27:54,274 - INFO - Attempting to like post: urn:li:activity:7353105335852621824
+2025-07-23 07:27:54,577 - WARNING - URN mismatch for urn:li:activity:7353105335852621824. Attempting to extract correct URN.
+2025-07-23 07:27:54,577 - ERROR - Could not extract correct URN from error: {"message":"java.util.concurrent.ExecutionException: com.linkedin.restli.server.RestLiServiceException [HTTP Status:400]: com.linkedin.restli.client.RestLiResponseException: Response status 400, serviceErrorMessage: Provided threadUrn: urn:li:activity:7353105335852621824 is not the same as the actual threadUrn: urn:li:activity:7353082183563071490","status":400}
+2025-07-23 07:27:54,578 - INFO - Marked post 2423 as failed to like: LinkedIn API error
+2025-07-23 07:27:54,578 - ERROR - ❌ Failed to like post 2423 by Nicole Snaza
+2025-07-23 07:27:54,578 - INFO - Human-like delay: 9s...
+2025-07-23 07:28:03,579 - INFO - Processing post 8/19
+2025-07-23 07:28:03,579 - INFO - Liking post 2424 by Nicole Snaza
+2025-07-23 07:28:03,579 - INFO - Attempting to like post: urn:li:activity:7353025991239159808
+2025-07-23 07:28:03,827 - WARNING - URN mismatch for urn:li:activity:7353025991239159808. Attempting to extract correct URN.
+2025-07-23 07:28:03,828 - ERROR - Could not extract correct URN from error: {"message":"java.util.concurrent.ExecutionException: com.linkedin.restli.server.RestLiServiceException [HTTP Status:400]: com.linkedin.restli.client.RestLiResponseException: Response status 400, serviceErrorMessage: Provided threadUrn: urn:li:activity:7353025991239159808 is not the same as the actual threadUrn: urn:li:activity:7353023458353532928","status":400}
+2025-07-23 07:28:03,828 - INFO - Marked post 2424 as failed to like: LinkedIn API error
+2025-07-23 07:28:03,829 - ERROR - ❌ Failed to like post 2424 by Nicole Snaza
+2025-07-23 07:28:03,829 - INFO - Human-like delay: 21s...
+2025-07-23 07:28:24,829 - INFO - Processing post 9/19
+2025-07-23 07:28:24,829 - INFO - Liking post 3237 by Ari C.
+2025-07-23 07:28:24,829 - INFO - Attempting to like post: urn:li:activity:7352092783207227393
+2025-07-23 07:28:25,087 - WARNING - URN mismatch for urn:li:activity:7352092783207227393. Attempting to extract correct URN.
+2025-07-23 07:28:25,088 - ERROR - Could not extract correct URN from error: {"message":"java.util.concurrent.ExecutionException: com.linkedin.restli.server.RestLiServiceException [HTTP Status:400]: com.linkedin.restli.client.RestLiResponseException: Response status 400, serviceErrorMessage: Provided threadUrn: urn:li:activity:7352092783207227393 is not the same as the actual threadUrn: urn:li:activity:7350988407176581120","status":400}
+2025-07-23 07:28:25,096 - INFO - Marked post 3237 as failed to like: LinkedIn API error
+2025-07-23 07:28:25,097 - ERROR - ❌ Failed to like post 3237 by Ari C.
+2025-07-23 07:28:25,098 - INFO - Human-like delay: 24s...
+2025-07-23 07:28:49,098 - INFO - Processing post 10/19
+2025-07-23 07:28:49,098 - INFO - Liking post 2425 by Nicole Snaza
+2025-07-23 07:28:49,098 - INFO - Attempting to like post: urn:li:activity:7351411907020374016
+2025-07-23 07:28:49,379 - WARNING - URN mismatch for urn:li:activity:7351411907020374016. Attempting to extract correct URN.
+2025-07-23 07:28:49,379 - ERROR - Could not extract correct URN from error: {"message":"java.util.concurrent.ExecutionException: com.linkedin.restli.server.RestLiServiceException [HTTP Status:400]: com.linkedin.restli.client.RestLiResponseException: Response status 400, serviceErrorMessage: Provided threadUrn: urn:li:activity:7351411907020374016 is not the same as the actual threadUrn: urn:li:activity:7351287010256408577","status":400}
+2025-07-23 07:28:49,380 - INFO - Marked post 2425 as failed to like: LinkedIn API error
+2025-07-23 07:28:49,380 - ERROR - ❌ Failed to like post 2425 by Nicole Snaza
+2025-07-23 07:28:49,380 - INFO - Human-like delay: 22s...
+2025-07-23 07:29:11,381 - INFO - Processing post 11/19
+2025-07-23 07:29:11,381 - INFO - Liking post 2426 by Nicole Snaza
+2025-07-23 07:29:11,384 - INFO - Attempting to like post: urn:li:activity:7351072008933150720
+2025-07-23 07:29:11,629 - WARNING - URN mismatch for urn:li:activity:7351072008933150720. Attempting to extract correct URN.
+2025-07-23 07:29:11,629 - ERROR - Could not extract correct URN from error: {"message":"java.util.concurrent.ExecutionException: com.linkedin.restli.server.RestLiServiceException [HTTP Status:400]: com.linkedin.restli.client.RestLiResponseException: Response status 400, serviceErrorMessage: Provided threadUrn: urn:li:activity:7351072008933150720 is not the same as the actual threadUrn: urn:li:activity:7350899499109658626","status":400}
+2025-07-23 07:29:11,660 - INFO - Marked post 2426 as failed to like: LinkedIn API error
+2025-07-23 07:29:11,662 - ERROR - ❌ Failed to like post 2426 by Nicole Snaza
+2025-07-23 07:29:11,662 - INFO - Human-like delay: 17s...
+2025-07-23 07:29:28,663 - INFO - Processing post 12/19
+2025-07-23 07:29:28,663 - INFO - Liking post 3238 by Ari C.
+2025-07-23 07:29:28,663 - INFO - Attempting to like post: urn:li:activity:7350959426230476800
+2025-07-23 07:29:28,925 - WARNING - URN mismatch for urn:li:activity:7350959426230476800. Attempting to extract correct URN.
+2025-07-23 07:29:28,925 - ERROR - Could not extract correct URN from error: {"message":"java.util.concurrent.ExecutionException: com.linkedin.restli.server.RestLiServiceException [HTTP Status:400]: com.linkedin.restli.client.RestLiResponseException: Response status 400, serviceErrorMessage: Provided threadUrn: urn:li:activity:7350959426230476800 is not the same as the actual threadUrn: urn:li:activity:7350678870846554112","status":400}
+2025-07-23 07:29:28,934 - INFO - Marked post 3238 as failed to like: LinkedIn API error
+2025-07-23 07:29:28,936 - ERROR - ❌ Failed to like post 3238 by Ari C.
+2025-07-23 07:29:28,936 - INFO - Human-like delay: 6s...
+2025-07-23 07:29:34,936 - INFO - Processing post 13/19
+2025-07-23 07:29:34,937 - INFO - Liking post 2427 by Nicole Snaza
+2025-07-23 07:29:34,937 - INFO - Attempting to like post: urn:li:activity:7350502507225194497
+2025-07-23 07:29:35,220 - WARNING - URN mismatch for urn:li:activity:7350502507225194497. Attempting to extract correct URN.
+2025-07-23 07:29:35,220 - ERROR - Could not extract correct URN from error: {"message":"java.util.concurrent.ExecutionException: com.linkedin.restli.server.RestLiServiceException [HTTP Status:400]: com.linkedin.restli.client.RestLiResponseException: Response status 400, serviceErrorMessage: Provided threadUrn: urn:li:activity:7350502507225194497 is not the same as the actual threadUrn: urn:li:groupPost:13282203-7348700469390675968","status":400}
+2025-07-23 07:29:35,251 - INFO - Marked post 2427 as failed to like: LinkedIn API error
+2025-07-23 07:29:35,252 - ERROR - ❌ Failed to like post 2427 by Nicole Snaza
+2025-07-23 07:29:35,252 - INFO - Human-like delay: 11s...
+2025-07-23 07:29:46,252 - INFO - Processing post 14/19
+2025-07-23 07:29:46,253 - INFO - Liking post 2428 by Nicole Snaza
+2025-07-23 07:29:46,253 - INFO - Attempting to like post: urn:li:activity:7350502032820133888
+2025-07-23 07:29:46,496 - WARNING - URN mismatch for urn:li:activity:7350502032820133888. Attempting to extract correct URN.
+2025-07-23 07:29:46,496 - ERROR - Could not extract correct URN from error: {"message":"java.util.concurrent.ExecutionException: com.linkedin.restli.server.RestLiServiceException [HTTP Status:400]: com.linkedin.restli.client.RestLiResponseException: Response status 400, serviceErrorMessage: Provided threadUrn: urn:li:activity:7350502032820133888 is not the same as the actual threadUrn: urn:li:activity:7350500209178624002","status":400}
+2025-07-23 07:29:46,504 - INFO - Marked post 2428 as failed to like: LinkedIn API error
+2025-07-23 07:29:46,507 - ERROR - ❌ Failed to like post 2428 by Nicole Snaza
+2025-07-23 07:29:46,507 - INFO - Human-like delay: 5s...
+2025-07-23 07:29:51,507 - INFO - Processing post 15/19
+2025-07-23 07:29:51,507 - INFO - Liking post 2429 by Nicole Snaza
+2025-07-23 07:29:51,510 - INFO - Attempting to like post: urn:li:activity:7349157222246928408
+2025-07-23 07:29:51,825 - WARNING - URN mismatch for urn:li:activity:7349157222246928408. Attempting to extract correct URN.
+2025-07-23 07:29:51,825 - ERROR - Could not extract correct URN from error: {"message":"java.util.concurrent.ExecutionException: com.linkedin.restli.server.RestLiServiceException [HTTP Status:400]: com.linkedin.restli.client.RestLiResponseException: Response status 400, serviceErrorMessage: Provided threadUrn: urn:li:activity:7349157222246928408 is not the same as the actual threadUrn: urn:li:activity:7349138030747619331","status":400}
+2025-07-23 07:29:51,857 - INFO - Marked post 2429 as failed to like: LinkedIn API error
+2025-07-23 07:29:51,858 - ERROR - ❌ Failed to like post 2429 by Nicole Snaza
+2025-07-23 07:29:51,858 - INFO - Human-like delay: 12s...
+2025-07-23 07:30:03,858 - INFO - Processing post 16/19
+2025-07-23 07:30:03,858 - INFO - Liking post 3067 by Sidhika Sooklal
+2025-07-23 07:30:03,859 - INFO - Attempting to like post: urn:li:activity:7348672646831652864
+2025-07-23 07:30:04,186 - WARNING - URN mismatch for urn:li:activity:7348672646831652864. Attempting to extract correct URN.
+2025-07-23 07:30:04,186 - ERROR - Could not extract correct URN from error: {"message":"java.util.concurrent.ExecutionException: com.linkedin.restli.server.RestLiServiceException [HTTP Status:400]: com.linkedin.restli.client.RestLiResponseException: Response status 400, serviceErrorMessage: Provided threadUrn: urn:li:activity:7348672646831652864 is not the same as the actual threadUrn: urn:li:activity:7345100509994790912","status":400}
+2025-07-23 07:30:04,195 - INFO - Marked post 3067 as failed to like: LinkedIn API error
+2025-07-23 07:30:04,197 - ERROR - ❌ Failed to like post 3067 by Sidhika Sooklal
+2025-07-23 07:30:04,197 - INFO - Human-like delay: 6s...
+2025-07-23 07:30:10,197 - INFO - Processing post 17/19
+2025-07-23 07:30:10,201 - INFO - Liking post 2430 by Nicole Snaza
+2025-07-23 07:30:10,201 - INFO - Attempting to like post: urn:li:activity:7348416169361518592
+2025-07-23 07:30:10,526 - WARNING - URN mismatch for urn:li:activity:7348416169361518592. Attempting to extract correct URN.
+2025-07-23 07:30:10,526 - INFO - Found correct URN: urn:li:ugcPost:7348376103457067009. Retrying...
+2025-07-23 07:30:10,807 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-23 07:30:10,839 - INFO - Marked post 2430 as liked
+2025-07-23 07:30:10,847 - INFO - Updated profile 8548 to status 'week2_commenting'. Liked post 2430
+2025-07-23 07:30:10,847 - INFO - ✅ Successfully liked post 2430 by Nicole Snaza
+2025-07-23 07:30:10,847 - INFO - Human-like delay: 16s...
+2025-07-23 07:30:26,847 - INFO - Processing post 18/19
+2025-07-23 07:30:26,848 - INFO - Liking post 2431 by Nicole Snaza
+2025-07-23 07:30:26,848 - INFO - Attempting to like post: urn:li:activity:7347257935409897473
+2025-07-23 07:30:27,103 - WARNING - URN mismatch for urn:li:activity:7347257935409897473. Attempting to extract correct URN.
+2025-07-23 07:30:27,104 - ERROR - Could not extract correct URN from error: {"message":"java.util.concurrent.ExecutionException: com.linkedin.restli.server.RestLiServiceException [HTTP Status:400]: com.linkedin.restli.client.RestLiResponseException: Response status 400, serviceErrorMessage: Provided threadUrn: urn:li:activity:7347257935409897473 is not the same as the actual threadUrn: urn:li:activity:7345866888263962626","status":400}
+2025-07-23 07:30:27,112 - INFO - Marked post 2431 as failed to like: LinkedIn API error
+2025-07-23 07:30:27,113 - ERROR - ❌ Failed to like post 2431 by Nicole Snaza
+2025-07-23 07:30:27,113 - INFO - Human-like delay: 11s...
+2025-07-23 07:30:38,114 - INFO - Processing post 19/19
+2025-07-23 07:30:38,114 - INFO - Liking post 2293 by Niklas Richardson
+2025-07-23 07:30:38,114 - INFO - Attempting to like post: urn:li:activity:7346513753300963329
+2025-07-23 07:30:38,381 - WARNING - URN mismatch for urn:li:activity:7346513753300963329. Attempting to extract correct URN.
+2025-07-23 07:30:38,381 - ERROR - Could not extract correct URN from error: {"message":"java.util.concurrent.ExecutionException: com.linkedin.restli.server.RestLiServiceException [HTTP Status:400]: com.linkedin.restli.client.RestLiResponseException: Response status 400, serviceErrorMessage: Provided threadUrn: urn:li:activity:7346513753300963329 is not the same as the actual threadUrn: urn:li:activity:7344022806537412608","status":400}
+2025-07-23 07:30:38,390 - INFO - Marked post 2293 as failed to like: LinkedIn API error
+2025-07-23 07:30:38,392 - ERROR - ❌ Failed to like post 2293 by Niklas Richardson
+2025-07-23 07:30:38,392 - INFO - Batch liking completed: 2 likes, 2 profiles advanced
+2025-07-23 13:25:59,598 - INFO - Database setup completed
+2025-07-23 13:25:59,598 - INFO - Current liking statistics:
+2025-07-23 13:25:59,616 - INFO - Profile status breakdown:
+2025-07-23 13:25:59,616 - INFO -   maintenance: 8448
+2025-07-23 13:25:59,616 - INFO -   not_started: 92
+2025-07-23 13:25:59,616 - INFO -   week1_liking: 10
+2025-07-23 13:25:59,616 - INFO -   week2_commenting: 18
+2025-07-23 13:25:59,616 - INFO -   week3_invitation: 62
+2025-07-23 13:25:59,616 - INFO - Total posts with URN: 3957
+2025-07-23 13:25:59,616 - INFO - Posts already liked: 44
+2025-07-23 13:25:59,616 - INFO - Failed likes: 32
+2025-07-23 13:25:59,617 - INFO - Week1 candidates ready for liking: 6
+2025-07-23 13:25:59,617 - INFO - DEBUG - Profiles in week1_liking status: 10
+2025-07-23 13:25:59,617 - INFO - DEBUG - Posts with recent dates (<21 days): 103
+2025-07-23 13:25:59,617 - INFO - Last liked: 2025-07-23 11:30:10
+2025-07-23 13:25:59,617 - INFO - Starting post liking batch (max 5 likes)
+2025-07-23 13:25:59,617 - INFO - Validating LinkedIn credentials...
+2025-07-23 13:26:05,038 - INFO - LinkedIn validation successful. User ID: BWhT9OIznT
+2025-07-23 13:26:05,040 - INFO - Found 8 posts ready for liking
+2025-07-23 13:26:05,040 - INFO - Processing 5 posts
+2025-07-23 13:26:05,041 - INFO - Processing post 1/5
+2025-07-23 13:26:05,041 - INFO - Liking post 633 by Christine Perna
+2025-07-23 13:26:05,041 - INFO - Attempting to like post: urn:li:activity:7351693708695674881
+2025-07-23 13:26:05,296 - WARNING - URN mismatch for urn:li:activity:7351693708695674881. Attempting to extract correct URN.
+2025-07-23 13:26:05,296 - ERROR - Could not extract correct URN from error: {"message":"java.util.concurrent.ExecutionException: com.linkedin.restli.server.RestLiServiceException [HTTP Status:400]: com.linkedin.restli.client.RestLiResponseException: Response status 400, serviceErrorMessage: Provided threadUrn: urn:li:activity:7351693708695674881 is not the same as the actual threadUrn: urn:li:activity:7351626839620026370","status":400}
+2025-07-23 13:26:05,297 - INFO - Marked post 633 as failed to like: LinkedIn API error
+2025-07-23 13:26:05,297 - ERROR - ❌ Failed to like post 633 by Christine Perna
+2025-07-23 13:26:05,297 - INFO - Human-like delay: 5s...
+2025-07-23 13:26:10,297 - INFO - Processing post 2/5
+2025-07-23 13:26:10,298 - INFO - Liking post 634 by Christine Perna
+2025-07-23 13:26:10,298 - INFO - Attempting to like post: urn:li:activity:7349023147905441793
+2025-07-23 13:26:10,541 - WARNING - URN mismatch for urn:li:activity:7349023147905441793. Attempting to extract correct URN.
+2025-07-23 13:26:10,541 - ERROR - Could not extract correct URN from error: {"message":"java.util.concurrent.ExecutionException: com.linkedin.restli.server.RestLiServiceException [HTTP Status:400]: com.linkedin.restli.client.RestLiResponseException: Response status 400, serviceErrorMessage: Provided threadUrn: urn:li:activity:7349023147905441793 is not the same as the actual threadUrn: urn:li:activity:7348697674155544577","status":400}
+2025-07-23 13:26:10,544 - INFO - Marked post 634 as failed to like: LinkedIn API error
+2025-07-23 13:26:10,545 - ERROR - ❌ Failed to like post 634 by Christine Perna
+2025-07-23 13:26:10,545 - INFO - Human-like delay: 21s...
+2025-07-23 13:26:31,545 - INFO - Processing post 3/5
+2025-07-23 13:26:31,545 - INFO - Liking post 537 by David Somers
+2025-07-23 13:26:31,546 - INFO - Attempting to like post: urn:li:activity:7348365268592619520
+2025-07-23 13:26:31,854 - WARNING - URN mismatch for urn:li:activity:7348365268592619520. Attempting to extract correct URN.
+2025-07-23 13:26:31,855 - INFO - Found correct URN: urn:li:ugcPost:7348141968650027008. Retrying...
+2025-07-23 13:26:32,161 - ERROR - Retry failed: 409 - {"message":"java.util.concurrent.ExecutionException: com.linkedin.restli.server.RestLiServiceException [HTTP Status:409]: com.linkedin.restli.client.RestLiResponseException: Response status 409","status":409}
+2025-07-23 13:26:32,162 - INFO - Marked post 537 as failed to like: LinkedIn API error
+2025-07-23 13:26:32,162 - ERROR - ❌ Failed to like post 537 by David Somers
+2025-07-23 13:26:32,162 - INFO - Human-like delay: 6s...
+2025-07-23 13:26:38,162 - INFO - Processing post 4/5
+2025-07-23 13:26:38,162 - INFO - Liking post 828 by Lawrence Paterson
+2025-07-23 13:26:38,163 - INFO - Attempting to like post: urn:li:activity:7346462345667198978
+2025-07-23 13:26:38,448 - ERROR - LinkedIn API error: 409 - {"message":"java.util.concurrent.ExecutionException: com.linkedin.restli.server.RestLiServiceException [HTTP Status:409]: com.linkedin.restli.client.RestLiResponseException: Response status 409","status":409}
+2025-07-23 13:26:38,449 - INFO - Marked post 828 as failed to like: LinkedIn API error
+2025-07-23 13:26:38,449 - ERROR - ❌ Failed to like post 828 by Lawrence Paterson
+2025-07-23 13:26:38,449 - INFO - Human-like delay: 20s...
+2025-07-23 13:26:58,449 - INFO - Processing post 5/5
+2025-07-23 13:26:58,450 - INFO - Liking post 3237 by Ari C.
+2025-07-23 13:26:58,450 - INFO - Attempting to like post: urn:li:activity:7352092783207227393
+2025-07-23 13:26:58,701 - WARNING - URN mismatch for urn:li:activity:7352092783207227393. Attempting to extract correct URN.
+2025-07-23 13:26:58,701 - ERROR - Could not extract correct URN from error: {"message":"java.util.concurrent.ExecutionException: com.linkedin.restli.server.RestLiServiceException [HTTP Status:400]: com.linkedin.restli.client.RestLiResponseException: Response status 400, serviceErrorMessage: Provided threadUrn: urn:li:activity:7352092783207227393 is not the same as the actual threadUrn: urn:li:activity:7350988407176581120","status":400}
+2025-07-23 13:26:58,703 - INFO - Marked post 3237 as failed to like: LinkedIn API error
+2025-07-23 13:26:58,703 - ERROR - ❌ Failed to like post 3237 by Ari C.
+2025-07-23 13:26:58,703 - INFO - Batch liking completed: 0 likes, 0 profiles advanced
+2025-07-23 13:56:15,866 - INFO - Database setup completed
+2025-07-23 13:56:15,866 - INFO - Current liking statistics:
+2025-07-23 13:56:15,890 - INFO - Profile status breakdown:
+2025-07-23 13:56:15,890 - INFO -   maintenance: 8448
+2025-07-23 13:56:15,890 - INFO -   not_started: 92
+2025-07-23 13:56:15,891 - INFO -   week1_liking: 10
+2025-07-23 13:56:15,891 - INFO -   week2_commenting: 15
+2025-07-23 13:56:15,891 - INFO -   week3_invitation: 65
+2025-07-23 13:56:15,891 - INFO - Total posts with URN: 3957
+2025-07-23 13:56:15,891 - INFO - Posts already liked: 44
+2025-07-23 13:56:15,892 - INFO - Failed likes: 32
+2025-07-23 13:56:15,892 - INFO - Week1 candidates ready for liking: 6
+2025-07-23 13:56:15,892 - INFO - DEBUG - Profiles in week1_liking status: 10
+2025-07-23 13:56:15,892 - INFO - DEBUG - Posts with recent dates (<21 days): 103
+2025-07-23 13:56:15,892 - INFO - Last liked: 2025-07-23 11:30:10
+2025-07-23 13:56:15,893 - INFO - Starting post liking batch (max 25 likes)
+2025-07-23 13:56:15,893 - INFO - Validating LinkedIn credentials...
+2025-07-23 13:56:21,289 - INFO - LinkedIn validation successful. User ID: BWhT9OIznT
+2025-07-23 13:56:21,290 - INFO - Found 8 posts ready for liking
+2025-07-23 13:56:21,291 - INFO - Processing 8 posts
+2025-07-23 13:56:21,291 - INFO - Processing post 1/8
+2025-07-23 13:56:21,291 - INFO - Liking post 633 by Christine Perna
+2025-07-23 13:56:21,291 - INFO - Attempting to like post: urn:li:activity:7351693708695674881
+2025-07-23 13:56:21,541 - WARNING - URN mismatch for urn:li:activity:7351693708695674881. Attempting to extract correct URN.
+2025-07-23 13:56:21,541 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7351626839620026370
+2025-07-23 13:56:21,824 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-23 13:56:21,861 - INFO - Marked post 633 as liked
+2025-07-23 13:56:21,869 - INFO - Updated profile 33 to status 'week2_commenting'. Liked post 633
+2025-07-23 13:56:21,869 - INFO - ✅ Successfully liked post 633 by Christine Perna
+2025-07-23 13:56:21,869 - INFO - Human-like delay: 16s...
+2025-07-23 13:56:37,870 - INFO - Processing post 2/8
+2025-07-23 13:56:37,870 - INFO - Liking post 634 by Christine Perna
+2025-07-23 13:56:37,870 - INFO - Attempting to like post: urn:li:activity:7349023147905441793
+2025-07-23 13:56:38,171 - WARNING - URN mismatch for urn:li:activity:7349023147905441793. Attempting to extract correct URN.
+2025-07-23 13:56:38,171 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7348697674155544577
+2025-07-23 13:56:38,435 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-23 13:56:38,472 - INFO - Marked post 634 as liked
+2025-07-23 13:56:38,479 - INFO - Updated profile 33 to status 'week2_commenting'. Liked post 634
+2025-07-23 13:56:38,479 - INFO - ✅ Successfully liked post 634 by Christine Perna
+2025-07-23 13:56:38,479 - INFO - Human-like delay: 17s...
+2025-07-23 13:56:55,480 - INFO - Processing post 3/8
+2025-07-23 13:56:55,480 - INFO - Liking post 537 by David Somers
+2025-07-23 13:56:55,480 - INFO - Attempting to like post: urn:li:activity:7348365268592619520
+2025-07-23 13:56:55,732 - WARNING - URN mismatch for urn:li:activity:7348365268592619520. Attempting to extract correct URN.
+2025-07-23 13:56:55,733 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7348141968650027008
+2025-07-23 13:56:56,064 - ERROR - Retry failed: 409 - {"message":"java.util.concurrent.ExecutionException: com.linkedin.restli.server.RestLiServiceException [HTTP Status:409]: com.linkedin.restli.client.RestLiResponseException: Response status 409","status":409}
+2025-07-23 13:56:56,065 - INFO - Marked post 537 as failed to like: LinkedIn API error
+2025-07-23 13:56:56,066 - ERROR - ❌ Failed to like post 537 by David Somers
+2025-07-23 13:56:56,066 - INFO - Human-like delay: 8s...
+2025-07-23 13:57:04,066 - INFO - Processing post 4/8
+2025-07-23 13:57:04,066 - INFO - Liking post 828 by Lawrence Paterson
+2025-07-23 13:57:04,066 - INFO - Attempting to like post: urn:li:activity:7346462345667198978
+2025-07-23 13:57:04,421 - ERROR - LinkedIn API error: 409 - {"message":"java.util.concurrent.ExecutionException: com.linkedin.restli.server.RestLiServiceException [HTTP Status:409]: com.linkedin.restli.client.RestLiResponseException: Response status 409","status":409}
+2025-07-23 13:57:04,423 - INFO - Marked post 828 as failed to like: LinkedIn API error
+2025-07-23 13:57:04,423 - ERROR - ❌ Failed to like post 828 by Lawrence Paterson
+2025-07-23 13:57:04,423 - INFO - Human-like delay: 8s...
+2025-07-23 13:57:12,424 - INFO - Processing post 5/8
+2025-07-23 13:57:12,424 - INFO - Liking post 3237 by Ari C.
+2025-07-23 13:57:12,424 - INFO - Attempting to like post: urn:li:activity:7352092783207227393
+2025-07-23 13:57:12,658 - WARNING - URN mismatch for urn:li:activity:7352092783207227393. Attempting to extract correct URN.
+2025-07-23 13:57:12,658 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7350988407176581120
+2025-07-23 13:57:12,925 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-23 13:57:12,936 - INFO - Marked post 3237 as liked
+2025-07-23 13:57:12,943 - INFO - Updated profile 8583 to status 'week2_commenting'. Liked post 3237
+2025-07-23 13:57:12,944 - INFO - ✅ Successfully liked post 3237 by Ari C.
+2025-07-23 13:57:12,944 - INFO - Human-like delay: 17s...
+2025-07-23 14:00:51,642 - INFO - Database setup completed
+2025-07-23 14:00:51,642 - INFO - Current liking statistics:
+2025-07-23 14:00:51,657 - INFO - Profile status breakdown:
+2025-07-23 14:00:51,658 - INFO -   maintenance: 8448
+2025-07-23 14:00:51,658 - INFO -   not_started: 92
+2025-07-23 14:00:51,658 - INFO -   week1_liking: 8
+2025-07-23 14:00:51,658 - INFO -   week2_commenting: 17
+2025-07-23 14:00:51,658 - INFO -   week3_invitation: 65
+2025-07-23 14:00:51,658 - INFO - Total posts with URN: 3957
+2025-07-23 14:00:51,658 - INFO - Posts already liked: 47
+2025-07-23 14:00:51,658 - INFO - Failed likes: 32
+2025-07-23 14:00:51,658 - INFO - Week1 candidates ready for liking: 4
+2025-07-23 14:00:51,658 - INFO - DEBUG - Profiles in week1_liking status: 8
+2025-07-23 14:00:51,658 - INFO - DEBUG - Posts with recent dates (<21 days): 103
+2025-07-23 14:00:51,659 - INFO - Last liked: 2025-07-23 17:57:12
+2025-07-23 14:00:51,659 - INFO - Starting post liking batch (max 25 likes)
+2025-07-23 14:00:51,659 - INFO - Validating LinkedIn credentials...
+2025-07-23 14:00:52,031 - INFO - LinkedIn validation successful. User ID: BWhT9OIznT
+2025-07-23 14:00:52,033 - INFO - Found 4 posts ready for liking
+2025-07-23 14:00:52,033 - INFO - Processing 4 posts
+2025-07-23 14:00:52,033 - INFO - Processing post 1/4
+2025-07-23 14:00:52,033 - INFO - Liking post 537 by David Somers
+2025-07-23 14:00:52,033 - INFO - Attempting to like post: urn:li:activity:7348365268592619520
+2025-07-23 14:00:52,467 - WARNING - URN mismatch for urn:li:activity:7348365268592619520. Attempting to extract correct URN.
+2025-07-23 14:00:52,468 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7348141968650027008
+2025-07-23 14:00:52,758 - INFO - Post already liked on retry (409 conflict): urn:li:ugcPost:7348141968650027008
+2025-07-23 14:00:52,799 - INFO - Marked post 537 as liked
+2025-07-23 14:00:52,806 - INFO - Updated profile 25 to status 'week2_commenting'. Liked post 537
+2025-07-23 14:00:52,806 - INFO - ✅ Successfully liked post 537 by David Somers
+2025-07-23 14:00:52,806 - INFO - Human-like delay: 10s...
+2025-07-23 14:01:02,806 - INFO - Processing post 2/4
+2025-07-23 14:01:02,807 - INFO - Liking post 828 by Lawrence Paterson
+2025-07-23 14:01:02,807 - INFO - Attempting to like post: urn:li:activity:7346462345667198978
+2025-07-23 14:01:03,151 - INFO - Post already liked (409 conflict): urn:li:activity:7346462345667198978
+2025-07-23 14:01:03,190 - INFO - Marked post 828 as liked
+2025-07-23 14:01:03,198 - INFO - Updated profile 8538 to status 'week2_commenting'. Liked post 828
+2025-07-23 14:01:03,199 - INFO - ✅ Successfully liked post 828 by Lawrence Paterson
+2025-07-23 14:01:03,199 - INFO - Human-like delay: 19s...
+2025-07-23 14:01:22,199 - INFO - Processing post 3/4
+2025-07-23 14:01:22,199 - INFO - Liking post 3067 by Sidhika Sooklal
+2025-07-23 14:01:22,199 - INFO - Attempting to like post: urn:li:activity:7348672646831652864
+2025-07-23 14:01:22,480 - WARNING - URN mismatch for urn:li:activity:7348672646831652864. Attempting to extract correct URN.
+2025-07-23 14:01:22,480 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7345100509994790912
+2025-07-23 14:01:22,769 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-23 14:01:22,807 - INFO - Marked post 3067 as liked
+2025-07-23 14:01:22,815 - INFO - Updated profile 8565 to status 'week2_commenting'. Liked post 3067
+2025-07-23 14:01:22,815 - INFO - ✅ Successfully liked post 3067 by Sidhika Sooklal
+2025-07-23 14:01:22,815 - INFO - Human-like delay: 5s...
+2025-07-23 14:01:27,815 - INFO - Processing post 4/4
+2025-07-23 14:01:27,815 - INFO - Liking post 2293 by Niklas Richardson
+2025-07-23 14:01:27,818 - INFO - Attempting to like post: urn:li:activity:7346513753300963329
+2025-07-23 14:01:28,078 - WARNING - URN mismatch for urn:li:activity:7346513753300963329. Attempting to extract correct URN.
+2025-07-23 14:01:28,078 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7344022806537412608
+2025-07-23 14:01:28,374 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-23 14:01:28,413 - INFO - Marked post 2293 as liked
+2025-07-23 14:01:28,421 - INFO - Updated profile 8536 to status 'week2_commenting'. Liked post 2293
+2025-07-23 14:01:28,421 - INFO - ✅ Successfully liked post 2293 by Niklas Richardson
+2025-07-23 14:01:28,421 - INFO - Batch liking completed: 4 likes, 4 profiles advanced
+2025-07-23 14:05:04,939 - INFO - Database setup completed
+2025-07-23 14:05:04,939 - INFO - Current liking statistics:
+2025-07-23 14:05:04,960 - INFO - Profile status breakdown:
+2025-07-23 14:05:04,961 - INFO -   maintenance: 8448
+2025-07-23 14:05:04,961 - INFO -   not_started: 89
+2025-07-23 14:05:04,961 - INFO -   week1_liking: 7
+2025-07-23 14:05:04,961 - INFO -   week2_commenting: 21
+2025-07-23 14:05:04,961 - INFO -   week3_invitation: 65
+2025-07-23 14:05:04,962 - INFO - Total posts with URN: 4176
+2025-07-23 14:05:04,962 - INFO - Posts already liked: 51
+2025-07-23 14:05:04,962 - INFO - Failed likes: 32
+2025-07-23 14:05:04,962 - INFO - Week1 candidates ready for liking: 3
+2025-07-23 14:05:04,962 - INFO - DEBUG - Profiles in week1_liking status: 7
+2025-07-23 14:05:04,962 - INFO - DEBUG - Posts with recent dates (<21 days): 107
+2025-07-23 14:05:04,962 - INFO - Last liked: 2025-07-23 18:01:28
+2025-07-23 14:05:04,962 - INFO - Starting post liking batch (max 5 likes)
+2025-07-23 14:05:04,962 - INFO - Validating LinkedIn credentials...
+2025-07-23 14:05:10,478 - INFO - LinkedIn validation successful. User ID: BWhT9OIznT
+2025-07-23 14:05:10,480 - INFO - Found 4 posts ready for liking
+2025-07-23 14:05:10,480 - INFO - Processing 4 posts
+2025-07-23 14:05:10,480 - INFO - Processing post 1/4
+2025-07-23 14:05:10,480 - INFO - Liking post 4035 by Semere T.
+2025-07-23 14:05:10,480 - INFO - Attempting to like post: urn:li:activity:7353179108475863040
+2025-07-23 14:05:10,728 - WARNING - URN mismatch for urn:li:activity:7353179108475863040. Attempting to extract correct URN.
+2025-07-23 14:05:10,729 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7353016576272429056
+2025-07-23 14:05:11,018 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-23 14:05:11,028 - INFO - Marked post 4035 as liked
+2025-07-23 14:05:11,035 - INFO - Updated profile 8604 to status 'week2_commenting'. Liked post 4035
+2025-07-23 14:05:11,036 - INFO - ✅ Successfully liked post 4035 by Semere T.
+2025-07-23 14:05:11,036 - INFO - Human-like delay: 3s...
+2025-07-23 14:05:14,037 - INFO - Processing post 2/4
+2025-07-23 14:05:14,037 - INFO - Liking post 3996 by Carla Moreno
+2025-07-23 14:05:14,037 - INFO - Attempting to like post: urn:li:activity:7353052586469425152
+2025-07-23 14:05:14,314 - INFO - Successfully liked post. Like ID: urn:li:person:BWhT9OIznT
+2025-07-23 14:05:14,354 - INFO - Marked post 3996 as liked
+2025-07-23 14:05:14,363 - INFO - Updated profile 8602 to status 'week2_commenting'. Liked post 3996
+2025-07-23 14:05:14,363 - INFO - ✅ Successfully liked post 3996 by Carla Moreno
+2025-07-23 14:05:14,363 - INFO - Human-like delay: 2s...
+2025-07-23 14:05:16,363 - INFO - Processing post 3/4
+2025-07-23 14:05:16,363 - INFO - Liking post 4036 by Semere T.
+2025-07-23 14:05:16,364 - INFO - Attempting to like post: urn:li:activity:7351965183013007360
+2025-07-23 14:05:16,623 - WARNING - URN mismatch for urn:li:activity:7351965183013007360. Attempting to extract correct URN.
+2025-07-23 14:05:16,623 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7351955260791226368
+2025-07-23 14:05:16,889 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-23 14:05:16,902 - INFO - Marked post 4036 as liked
+2025-07-23 14:05:16,909 - INFO - Updated profile 8604 to status 'week2_commenting'. Liked post 4036
+2025-07-23 14:05:16,910 - INFO - ✅ Successfully liked post 4036 by Semere T.
+2025-07-23 14:05:16,910 - INFO - Human-like delay: 2s...
+2025-07-23 14:05:18,910 - INFO - Processing post 4/4
+2025-07-23 14:05:18,910 - INFO - Liking post 3958 by Richel Hidalgo
+2025-07-23 14:05:18,910 - INFO - Attempting to like post: urn:li:activity:7351321436713648131
+2025-07-23 14:05:19,207 - INFO - Successfully liked post. Like ID: urn:li:person:BWhT9OIznT
+2025-07-23 14:05:19,219 - INFO - Marked post 3958 as liked
+2025-07-23 14:05:19,228 - INFO - Updated profile 8600 to status 'week2_commenting'. Liked post 3958
+2025-07-23 14:05:19,229 - INFO - ✅ Successfully liked post 3958 by Richel Hidalgo
+2025-07-23 14:05:19,229 - INFO - Batch liking completed: 4 likes, 4 profiles advanced
+2025-07-23 14:36:47,202 - INFO - Database setup completed
+2025-07-23 14:36:47,202 - INFO - Current liking statistics:
+2025-07-23 14:36:47,219 - INFO - Profile status breakdown:
+2025-07-23 14:36:47,219 - INFO -   maintenance: 8448
+2025-07-23 14:36:47,219 - INFO -   not_started: 86
+2025-07-23 14:36:47,219 - INFO -   week1_liking: 5
+2025-07-23 14:36:47,219 - INFO -   week2_commenting: 23
+2025-07-23 14:36:47,220 - INFO -   week3_invitation: 68
+2025-07-23 14:36:47,220 - INFO - Total posts with URN: 4435
+2025-07-23 14:36:47,220 - INFO - Posts already liked: 55
+2025-07-23 14:36:47,220 - INFO - Failed likes: 32
+2025-07-23 14:36:47,220 - INFO - Week1 candidates ready for liking: 1
+2025-07-23 14:36:47,220 - INFO - DEBUG - Profiles in week1_liking status: 5
+2025-07-23 14:36:47,220 - INFO - DEBUG - Posts with recent dates (<21 days): 108
+2025-07-23 14:36:47,220 - INFO - Last liked: 2025-07-23 18:05:19
+2025-07-23 14:36:47,220 - INFO - Starting post liking batch (max 5 likes)
+2025-07-23 14:36:47,220 - INFO - Validating LinkedIn credentials...
+2025-07-23 14:36:47,609 - INFO - LinkedIn validation successful. User ID: BWhT9OIznT
+2025-07-23 14:36:47,610 - INFO - Found 1 posts ready for liking
+2025-07-23 14:36:47,610 - INFO - Processing 1 posts
+2025-07-23 14:36:47,610 - INFO - Processing post 1/1
+2025-07-23 14:36:47,610 - INFO - Liking post 4277 by Mumo (Max)
+2025-07-23 14:36:47,610 - INFO - Attempting to like post: urn:li:activity:7348369214098853891
+2025-07-23 14:36:47,850 - WARNING - URN mismatch for urn:li:activity:7348369214098853891. Attempting to extract correct URN.
+2025-07-23 14:36:47,850 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7348350210319785986
+2025-07-23 14:36:48,134 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-23 14:36:48,160 - INFO - Marked post 4277 as liked
+2025-07-23 14:36:48,168 - INFO - Updated profile 8618 to status 'week2_commenting'. Liked post 4277
+2025-07-23 14:36:48,168 - INFO - ✅ Successfully liked post 4277 by Mumo (Max)
+2025-07-23 14:36:48,168 - INFO - Batch liking completed: 1 likes, 1 profiles advanced
+2025-07-24 07:59:46,333 - INFO - Database setup completed
+2025-07-24 07:59:46,333 - INFO - Current liking statistics:
+2025-07-24 07:59:46,351 - INFO - Profile status breakdown:
+2025-07-24 07:59:46,351 - INFO -   maintenance: 8446
+2025-07-24 07:59:46,351 - INFO -   not_started: 71
+2025-07-24 07:59:46,351 - INFO -   week1_liking: 8
+2025-07-24 07:59:46,351 - INFO -   week2_commenting: 23
+2025-07-24 07:59:46,351 - INFO -   week3_invitation: 82
+2025-07-24 07:59:46,351 - INFO - Total posts with URN: 5205
+2025-07-24 07:59:46,351 - INFO - Posts already liked: 56
+2025-07-24 07:59:46,351 - INFO - Failed likes: 32
+2025-07-24 07:59:46,351 - INFO - Week1 candidates ready for liking: 4
+2025-07-24 07:59:46,351 - INFO - DEBUG - Profiles in week1_liking status: 8
+2025-07-24 07:59:46,351 - INFO - DEBUG - Posts with recent dates (<21 days): 109
+2025-07-24 07:59:46,351 - INFO - Last liked: 2025-07-23 18:36:48
+2025-07-24 07:59:46,351 - INFO - Starting post liking batch (max 25 likes)
+2025-07-24 07:59:46,351 - INFO - Validating LinkedIn credentials...
+2025-07-24 07:59:51,866 - INFO - LinkedIn validation successful. User ID: BWhT9OIznT
+2025-07-24 07:59:51,871 - INFO - Found 13 posts ready for liking
+2025-07-24 07:59:51,871 - INFO - Processing 13 posts
+2025-07-24 07:59:51,871 - INFO - Processing post 1/13
+2025-07-24 07:59:51,871 - INFO - Liking post 5156 by Tapan Kamdar
+2025-07-24 07:59:51,871 - INFO - Attempting to like post: urn:li:activity:7353916428787372033
+2025-07-24 07:59:52,151 - INFO - Successfully liked post. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 07:59:52,189 - INFO - Marked post 5156 as liked
+2025-07-24 07:59:52,197 - INFO - Updated profile 114 to status 'week2_commenting'. Liked post 5156
+2025-07-24 07:59:52,197 - INFO - ✅ Successfully liked post 5156 by Tapan Kamdar
+2025-07-24 07:59:52,197 - INFO - Human-like delay: 15s...
+2025-07-24 08:00:07,197 - INFO - Processing post 2/13
+2025-07-24 08:00:07,197 - INFO - Liking post 5157 by Tapan Kamdar
+2025-07-24 08:00:07,197 - INFO - Attempting to like post: urn:li:activity:7353499592128172033
+2025-07-24 08:00:07,540 - INFO - Successfully liked post. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 08:00:07,550 - INFO - Marked post 5157 as liked
+2025-07-24 08:00:07,558 - INFO - Updated profile 114 to status 'week2_commenting'. Liked post 5157
+2025-07-24 08:00:07,558 - INFO - ✅ Successfully liked post 5157 by Tapan Kamdar
+2025-07-24 08:00:07,559 - INFO - Human-like delay: 17s...
+2025-07-24 08:00:24,559 - INFO - Processing post 3/13
+2025-07-24 08:00:24,559 - INFO - Liking post 5158 by Tapan Kamdar
+2025-07-24 08:00:24,559 - INFO - Attempting to like post: urn:li:activity:7353423667457904640
+2025-07-24 08:00:24,833 - WARNING - URN mismatch for urn:li:activity:7353423667457904640. Attempting to extract correct URN.
+2025-07-24 08:00:24,833 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7340011340557651968
+2025-07-24 08:00:25,126 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 08:00:25,139 - INFO - Marked post 5158 as liked
+2025-07-24 08:00:25,147 - INFO - Updated profile 114 to status 'week2_commenting'. Liked post 5158
+2025-07-24 08:00:25,147 - INFO - ✅ Successfully liked post 5158 by Tapan Kamdar
+2025-07-24 08:00:25,147 - INFO - Human-like delay: 21s...
+2025-07-24 08:00:46,147 - INFO - Processing post 4/13
+2025-07-24 08:00:46,147 - INFO - Liking post 5111 by Raj Singh
+2025-07-24 08:00:46,147 - INFO - Attempting to like post: urn:li:activity:7350887038738444288
+2025-07-24 08:00:46,432 - INFO - Successfully liked post. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 08:00:46,442 - INFO - Marked post 5111 as liked
+2025-07-24 08:00:46,450 - INFO - Updated profile 112 to status 'week2_commenting'. Liked post 5111
+2025-07-24 08:00:46,450 - INFO - ✅ Successfully liked post 5111 by Raj Singh
+2025-07-24 08:00:46,450 - INFO - Human-like delay: 18s...
+2025-07-24 08:01:04,450 - INFO - Processing post 5/13
+2025-07-24 08:01:04,450 - INFO - Liking post 5159 by Tapan Kamdar
+2025-07-24 08:01:04,450 - INFO - Attempting to like post: urn:li:activity:7350886895272308739
+2025-07-24 08:01:04,698 - WARNING - URN mismatch for urn:li:activity:7350886895272308739. Attempting to extract correct URN.
+2025-07-24 08:01:04,698 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7339823285339115520
+2025-07-24 08:01:04,969 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 08:01:04,979 - INFO - Marked post 5159 as liked
+2025-07-24 08:01:04,986 - INFO - Updated profile 114 to status 'week2_commenting'. Liked post 5159
+2025-07-24 08:01:04,986 - INFO - ✅ Successfully liked post 5159 by Tapan Kamdar
+2025-07-24 08:01:04,986 - INFO - Human-like delay: 16s...
+2025-07-24 08:01:20,987 - INFO - Processing post 6/13
+2025-07-24 08:01:20,987 - INFO - Liking post 5160 by Tapan Kamdar
+2025-07-24 08:01:20,987 - INFO - Attempting to like post: urn:li:activity:7350296348140716033
+2025-07-24 08:01:21,263 - INFO - Successfully liked post. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 08:01:21,274 - INFO - Marked post 5160 as liked
+2025-07-24 08:01:21,281 - INFO - Updated profile 114 to status 'week2_commenting'. Liked post 5160
+2025-07-24 08:01:21,282 - INFO - ✅ Successfully liked post 5160 by Tapan Kamdar
+2025-07-24 08:01:21,282 - INFO - Human-like delay: 6s...
+2025-07-24 08:01:27,282 - INFO - Processing post 7/13
+2025-07-24 08:01:27,282 - INFO - Liking post 5112 by Raj Singh
+2025-07-24 08:01:27,282 - INFO - Attempting to like post: urn:li:activity:7348792590118309906
+2025-07-24 08:01:27,538 - WARNING - URN mismatch for urn:li:activity:7348792590118309906. Attempting to extract correct URN.
+2025-07-24 08:01:27,538 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7348792589132668929
+2025-07-24 08:01:27,801 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 08:01:27,811 - INFO - Marked post 5112 as liked
+2025-07-24 08:01:27,818 - INFO - Updated profile 112 to status 'week2_commenting'. Liked post 5112
+2025-07-24 08:01:27,818 - INFO - ✅ Successfully liked post 5112 by Raj Singh
+2025-07-24 08:01:27,818 - INFO - Human-like delay: 20s...
+2025-07-24 08:01:47,819 - INFO - Processing post 8/13
+2025-07-24 08:01:47,819 - INFO - Liking post 5161 by Tapan Kamdar
+2025-07-24 08:01:47,819 - INFO - Attempting to like post: urn:li:activity:7348511621326983168
+2025-07-24 08:01:48,162 - INFO - Successfully liked post. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 08:01:48,173 - INFO - Marked post 5161 as liked
+2025-07-24 08:01:48,180 - INFO - Updated profile 114 to status 'week2_commenting'. Liked post 5161
+2025-07-24 08:01:48,180 - INFO - ✅ Successfully liked post 5161 by Tapan Kamdar
+2025-07-24 08:01:48,181 - INFO - Human-like delay: 17s...
+2025-07-24 08:02:05,181 - INFO - Processing post 9/13
+2025-07-24 08:02:05,181 - INFO - Liking post 5162 by Tapan Kamdar
+2025-07-24 08:02:05,181 - INFO - Attempting to like post: urn:li:activity:7348350153440862209
+2025-07-24 08:02:05,436 - WARNING - URN mismatch for urn:li:activity:7348350153440862209. Attempting to extract correct URN.
+2025-07-24 08:02:05,436 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7339792177775943682
+2025-07-24 08:02:05,926 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 08:02:05,936 - INFO - Marked post 5162 as liked
+2025-07-24 08:02:05,943 - INFO - Updated profile 114 to status 'week2_commenting'. Liked post 5162
+2025-07-24 08:02:05,943 - INFO - ✅ Successfully liked post 5162 by Tapan Kamdar
+2025-07-24 08:02:05,943 - INFO - Human-like delay: 10s...
+2025-07-24 08:02:15,943 - INFO - Processing post 10/13
+2025-07-24 08:02:15,943 - INFO - Liking post 4565 by Veronica Sanchez
+2025-07-24 08:02:15,943 - INFO - Attempting to like post: urn:li:activity:7349134165356797955
+2025-07-24 08:02:16,205 - WARNING - URN mismatch for urn:li:activity:7349134165356797955. Attempting to extract correct URN.
+2025-07-24 08:02:16,205 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7349133029061124097
+2025-07-24 08:02:16,509 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 08:02:16,520 - INFO - Marked post 4565 as liked
+2025-07-24 08:02:16,527 - INFO - Updated profile 8629 to status 'week2_commenting'. Liked post 4565
+2025-07-24 08:02:16,527 - INFO - ✅ Successfully liked post 4565 by Veronica Sanchez
+2025-07-24 08:02:16,527 - INFO - Human-like delay: 22s...
+2025-07-24 08:02:38,528 - INFO - Processing post 11/13
+2025-07-24 08:02:38,528 - INFO - Liking post 4566 by Veronica Sanchez
+2025-07-24 08:02:38,528 - INFO - Attempting to like post: urn:li:activity:7348404305051164672
+2025-07-24 08:02:38,772 - WARNING - URN mismatch for urn:li:activity:7348404305051164672. Attempting to extract correct URN.
+2025-07-24 08:02:38,772 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7348030097821499393
+2025-07-24 08:02:39,040 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 08:02:39,051 - INFO - Marked post 4566 as liked
+2025-07-24 08:02:39,059 - INFO - Updated profile 8629 to status 'week2_commenting'. Liked post 4566
+2025-07-24 08:02:39,059 - INFO - ✅ Successfully liked post 4566 by Veronica Sanchez
+2025-07-24 08:02:39,059 - INFO - Human-like delay: 25s...
+2025-07-24 08:03:04,060 - INFO - Processing post 12/13
+2025-07-24 08:03:04,060 - INFO - Liking post 4567 by Veronica Sanchez
+2025-07-24 08:03:04,060 - INFO - Attempting to like post: urn:li:activity:7348118907926269952
+2025-07-24 08:03:04,302 - WARNING - URN mismatch for urn:li:activity:7348118907926269952. Attempting to extract correct URN.
+2025-07-24 08:03:04,302 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7346901579402231809
+2025-07-24 08:03:04,574 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 08:03:04,585 - INFO - Marked post 4567 as liked
+2025-07-24 08:03:04,593 - INFO - Updated profile 8629 to status 'week2_commenting'. Liked post 4567
+2025-07-24 08:03:04,593 - INFO - ✅ Successfully liked post 4567 by Veronica Sanchez
+2025-07-24 08:03:04,593 - INFO - Human-like delay: 18s...
+2025-07-24 08:03:22,594 - INFO - Processing post 13/13
+2025-07-24 08:03:22,594 - INFO - Liking post 4475 by Dr. John
+2025-07-24 08:03:22,594 - INFO - Attempting to like post: urn:li:activity:7347182816461238272
+2025-07-24 08:03:22,882 - INFO - Successfully liked post. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 08:03:22,893 - INFO - Marked post 4475 as liked
+2025-07-24 08:03:22,900 - INFO - Updated profile 8620 to status 'week2_commenting'. Liked post 4475
+2025-07-24 08:03:22,901 - INFO - ✅ Successfully liked post 4475 by Dr. John
+2025-07-24 08:03:22,901 - INFO - Batch liking completed: 13 likes, 13 profiles advanced
+2025-07-24 10:30:35,026 - INFO - Database setup completed
+2025-07-24 10:30:35,026 - INFO - Current liking statistics:
+2025-07-24 10:30:35,048 - INFO - Profile status breakdown:
+2025-07-24 10:30:35,048 - INFO -   maintenance: 8445
+2025-07-24 10:30:35,048 - INFO -   not_started: 41
+2025-07-24 10:30:35,048 - INFO -   week1_liking: 10
+2025-07-24 10:30:35,048 - INFO -   week2_commenting: 27
+2025-07-24 10:30:35,048 - INFO -   week3_invitation: 107
+2025-07-24 10:30:35,049 - INFO - Total posts with URN: 6374
+2025-07-24 10:30:35,049 - INFO - Posts already liked: 69
+2025-07-24 10:30:35,049 - INFO - Failed likes: 32
+2025-07-24 10:30:35,049 - INFO - Week1 candidates ready for liking: 6
+2025-07-24 10:30:35,049 - INFO - DEBUG - Profiles in week1_liking status: 10
+2025-07-24 10:30:35,049 - INFO - DEBUG - Posts with recent dates (<21 days): 126
+2025-07-24 10:30:35,049 - INFO - Last liked: 2025-07-24 12:03:22
+2025-07-24 11:13:24,711 - INFO - Database setup completed
+2025-07-24 11:13:24,713 - INFO - Current liking statistics:
+2025-07-24 11:13:24,768 - INFO - Profile status breakdown:
+2025-07-24 11:13:24,768 - INFO -   maintenance: 8445
+2025-07-24 11:13:24,768 - INFO -   not_started: 26
+2025-07-24 11:13:24,769 - INFO -   week1_liking: 13
+2025-07-24 11:13:24,769 - INFO -   week2_commenting: 27
+2025-07-24 11:13:24,769 - INFO -   week3_invitation: 119
+2025-07-24 11:13:24,769 - INFO - Total posts with URN: 7160
+2025-07-24 11:13:24,769 - INFO - Posts already liked: 69
+2025-07-24 11:13:24,769 - INFO - Failed likes: 32
+2025-07-24 11:13:24,769 - INFO - Week1 candidates ready for liking: 9
+2025-07-24 11:13:24,769 - INFO - DEBUG - Profiles in week1_liking status: 13
+2025-07-24 11:13:24,769 - INFO - DEBUG - Posts with recent dates (<21 days): 137
+2025-07-24 11:13:24,769 - INFO - Last liked: 2025-07-24 12:03:22
+2025-07-24 11:13:24,769 - INFO - Starting post liking batch (max 25 likes)
+2025-07-24 11:13:24,770 - INFO - Validating LinkedIn credentials...
+2025-07-24 11:13:25,123 - INFO - LinkedIn validation successful. User ID: BWhT9OIznT
+2025-07-24 11:13:25,126 - INFO - Found 28 posts ready for liking
+2025-07-24 11:13:25,126 - INFO - Processing 25 posts
+2025-07-24 11:13:25,126 - INFO - Processing post 1/25
+2025-07-24 11:13:25,126 - INFO - Liking post 5831 by David Rogers
+2025-07-24 11:13:25,126 - INFO - Attempting to like post: urn:li:activity:7353093997017387008
+2025-07-24 11:13:25,382 - INFO - Successfully liked post. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 11:13:25,396 - INFO - Marked post 5831 as liked
+2025-07-24 11:13:25,404 - INFO - Updated profile 116 to status 'week2_commenting'. Liked post 5831
+2025-07-24 11:13:25,404 - INFO - ✅ Successfully liked post 5831 by David Rogers
+2025-07-24 11:13:25,404 - INFO - Human-like delay: 18s...
+2025-07-24 11:13:43,404 - INFO - Processing post 2/25
+2025-07-24 11:13:43,404 - INFO - Liking post 5832 by David Rogers
+2025-07-24 11:13:43,405 - INFO - Attempting to like post: urn:li:activity:7351612278598750209
+2025-07-24 11:13:43,614 - WARNING - URN mismatch for urn:li:activity:7351612278598750209. Attempting to extract correct URN.
+2025-07-24 11:13:43,615 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7351612278061924352
+2025-07-24 11:13:43,844 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 11:13:43,857 - INFO - Marked post 5832 as liked
+2025-07-24 11:13:43,867 - INFO - Updated profile 116 to status 'week2_commenting'. Liked post 5832
+2025-07-24 11:13:43,867 - INFO - ✅ Successfully liked post 5832 by David Rogers
+2025-07-24 11:13:43,870 - INFO - Human-like delay: 19s...
+2025-07-24 11:14:02,870 - INFO - Processing post 3/25
+2025-07-24 11:14:02,870 - INFO - Liking post 5833 by David Rogers
+2025-07-24 11:14:02,871 - INFO - Attempting to like post: urn:li:activity:7349422262564921346
+2025-07-24 11:14:03,122 - INFO - Successfully liked post. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 11:14:03,133 - INFO - Marked post 5833 as liked
+2025-07-24 11:14:03,142 - INFO - Updated profile 116 to status 'week2_commenting'. Liked post 5833
+2025-07-24 11:14:03,142 - INFO - ✅ Successfully liked post 5833 by David Rogers
+2025-07-24 11:14:03,142 - INFO - Human-like delay: 9s...
+2025-07-24 11:14:12,142 - INFO - Processing post 4/25
+2025-07-24 11:14:12,143 - INFO - Liking post 5834 by David Rogers
+2025-07-24 11:14:12,143 - INFO - Attempting to like post: urn:li:activity:7349132494245351424
+2025-07-24 11:14:12,409 - INFO - Successfully liked post. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 11:14:12,422 - INFO - Marked post 5834 as liked
+2025-07-24 11:14:12,431 - INFO - Updated profile 116 to status 'week2_commenting'. Liked post 5834
+2025-07-24 11:14:12,431 - INFO - ✅ Successfully liked post 5834 by David Rogers
+2025-07-24 11:14:12,431 - INFO - Human-like delay: 13s...
+2025-07-24 11:14:25,432 - INFO - Processing post 5/25
+2025-07-24 11:14:25,432 - INFO - Liking post 6430 by Vikram Abiruben
+2025-07-24 11:14:25,432 - INFO - Attempting to like post: urn:li:activity:7354087188998807553
+2025-07-24 11:14:25,646 - WARNING - URN mismatch for urn:li:activity:7354087188998807553. Attempting to extract correct URN.
+2025-07-24 11:14:25,646 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7345479376165040128
+2025-07-24 11:14:25,916 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 11:14:25,929 - INFO - Marked post 6430 as liked
+2025-07-24 11:14:25,938 - INFO - Updated profile 8544 to status 'week2_commenting'. Liked post 6430
+2025-07-24 11:14:25,939 - INFO - ✅ Successfully liked post 6430 by Vikram Abiruben
+2025-07-24 11:14:25,939 - INFO - Human-like delay: 16s...
+2025-07-24 11:14:41,939 - INFO - Processing post 6/25
+2025-07-24 11:14:41,939 - INFO - Liking post 6431 by Vikram Abiruben
+2025-07-24 11:14:41,940 - INFO - Attempting to like post: urn:li:activity:7354087120849805313
+2025-07-24 11:14:42,159 - WARNING - URN mismatch for urn:li:activity:7354087120849805313. Attempting to extract correct URN.
+2025-07-24 11:14:42,159 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7349134853306535937
+2025-07-24 11:14:42,396 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 11:14:42,436 - INFO - Marked post 6431 as liked
+2025-07-24 11:14:42,445 - INFO - Updated profile 8544 to status 'week2_commenting'. Liked post 6431
+2025-07-24 11:14:42,445 - INFO - ✅ Successfully liked post 6431 by Vikram Abiruben
+2025-07-24 11:14:42,445 - INFO - Human-like delay: 14s...
+2025-07-24 11:14:56,445 - INFO - Processing post 7/25
+2025-07-24 11:14:56,445 - INFO - Liking post 6432 by Vikram Abiruben
+2025-07-24 11:14:56,445 - INFO - Attempting to like post: urn:li:activity:7354086920538202114
+2025-07-24 11:14:56,675 - WARNING - URN mismatch for urn:li:activity:7354086920538202114. Attempting to extract correct URN.
+2025-07-24 11:14:56,675 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7353928994645278721
+2025-07-24 11:14:57,262 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 11:14:57,276 - INFO - Marked post 6432 as liked
+2025-07-24 11:14:57,284 - INFO - Updated profile 8544 to status 'week2_commenting'. Liked post 6432
+2025-07-24 11:14:57,285 - INFO - ✅ Successfully liked post 6432 by Vikram Abiruben
+2025-07-24 11:14:57,285 - INFO - Human-like delay: 24s...
+2025-07-24 11:15:21,285 - INFO - Processing post 8/25
+2025-07-24 11:15:21,285 - INFO - Liking post 6181 by Milena Rosendahl
+2025-07-24 11:15:21,285 - INFO - Attempting to like post: urn:li:activity:7353343794731200512
+2025-07-24 11:15:21,494 - WARNING - URN mismatch for urn:li:activity:7353343794731200512. Attempting to extract correct URN.
+2025-07-24 11:15:21,495 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7353343794236272641
+2025-07-24 11:15:21,721 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 11:15:21,730 - INFO - Marked post 6181 as liked
+2025-07-24 11:15:21,740 - INFO - Updated profile 8534 to status 'week2_commenting'. Liked post 6181
+2025-07-24 11:15:21,741 - INFO - ✅ Successfully liked post 6181 by Milena Rosendahl
+2025-07-24 11:15:21,741 - INFO - Human-like delay: 7s...
+2025-07-24 11:15:28,741 - INFO - Processing post 9/25
+2025-07-24 11:15:28,741 - INFO - Liking post 6131 by Rish Gupta
+2025-07-24 11:15:28,741 - INFO - Attempting to like post: urn:li:activity:7353130523189264384
+2025-07-24 11:15:29,006 - WARNING - URN mismatch for urn:li:activity:7353130523189264384. Attempting to extract correct URN.
+2025-07-24 11:15:29,007 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7353130453140168704
+2025-07-24 11:15:29,234 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 11:15:29,247 - INFO - Marked post 6131 as liked
+2025-07-24 11:15:29,256 - INFO - Updated profile 8528 to status 'week2_commenting'. Liked post 6131
+2025-07-24 11:15:29,256 - INFO - ✅ Successfully liked post 6131 by Rish Gupta
+2025-07-24 11:15:29,256 - INFO - Human-like delay: 5s...
+2025-07-24 11:15:34,257 - INFO - Processing post 10/25
+2025-07-24 11:15:34,257 - INFO - Liking post 6433 by Vikram Abiruben
+2025-07-24 11:15:34,260 - INFO - Attempting to like post: urn:li:activity:7352958990789578754
+2025-07-24 11:15:34,723 - WARNING - URN mismatch for urn:li:activity:7352958990789578754. Attempting to extract correct URN.
+2025-07-24 11:15:34,723 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7350473878487330816
+2025-07-24 11:15:34,953 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 11:15:34,990 - INFO - Marked post 6433 as liked
+2025-07-24 11:15:34,998 - INFO - Updated profile 8544 to status 'week2_commenting'. Liked post 6433
+2025-07-24 11:15:34,998 - INFO - ✅ Successfully liked post 6433 by Vikram Abiruben
+2025-07-24 11:15:34,999 - INFO - Human-like delay: 5s...
+2025-07-24 11:15:39,999 - INFO - Processing post 11/25
+2025-07-24 11:15:39,999 - INFO - Liking post 6649 by Khadijah Davis
+2025-07-24 11:15:40,002 - INFO - Attempting to like post: urn:li:activity:7352128337080688642
+2025-07-24 11:15:40,424 - WARNING - URN mismatch for urn:li:activity:7352128337080688642. Attempting to extract correct URN.
+2025-07-24 11:15:40,424 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7343334959933218816
+2025-07-24 11:15:40,888 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 11:15:40,925 - INFO - Marked post 6649 as liked
+2025-07-24 11:15:40,933 - INFO - Updated profile 8557 to status 'week2_commenting'. Liked post 6649
+2025-07-24 11:15:40,933 - INFO - ✅ Successfully liked post 6649 by Khadijah Davis
+2025-07-24 11:15:40,933 - INFO - Human-like delay: 21s...
+2025-07-24 11:16:01,934 - INFO - Processing post 12/25
+2025-07-24 11:16:01,934 - INFO - Liking post 6650 by Khadijah Davis
+2025-07-24 11:16:01,934 - INFO - Attempting to like post: urn:li:activity:7351989178147954689
+2025-07-24 11:16:02,167 - WARNING - URN mismatch for urn:li:activity:7351989178147954689. Attempting to extract correct URN.
+2025-07-24 11:16:02,167 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7351939589462237185
+2025-07-24 11:16:02,481 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 11:16:02,494 - INFO - Marked post 6650 as liked
+2025-07-24 11:16:02,502 - INFO - Updated profile 8557 to status 'week2_commenting'. Liked post 6650
+2025-07-24 11:16:02,503 - INFO - ✅ Successfully liked post 6650 by Khadijah Davis
+2025-07-24 11:16:02,503 - INFO - Human-like delay: 10s...
+2025-07-24 11:16:12,503 - INFO - Processing post 13/25
+2025-07-24 11:16:12,504 - INFO - Liking post 6039 by Matt Crawford
+2025-07-24 11:16:12,504 - INFO - Attempting to like post: urn:li:activity:7351979249639051265
+2025-07-24 11:16:12,712 - WARNING - URN mismatch for urn:li:activity:7351979249639051265. Attempting to extract correct URN.
+2025-07-24 11:16:12,712 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7351979249089593344
+2025-07-24 11:16:12,968 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 11:16:13,006 - INFO - Marked post 6039 as liked
+2025-07-24 11:16:13,013 - INFO - Updated profile 8516 to status 'week2_commenting'. Liked post 6039
+2025-07-24 11:16:13,014 - INFO - ✅ Successfully liked post 6039 by Matt Crawford
+2025-07-24 11:16:13,014 - INFO - Human-like delay: 7s...
+2025-07-24 11:16:20,014 - INFO - Processing post 14/25
+2025-07-24 11:16:20,015 - INFO - Liking post 6132 by Rish Gupta
+2025-07-24 11:16:20,015 - INFO - Attempting to like post: urn:li:activity:7351762460422426624
+2025-07-24 11:16:20,262 - WARNING - URN mismatch for urn:li:activity:7351762460422426624. Attempting to extract correct URN.
+2025-07-24 11:16:20,262 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7351762459679973377
+2025-07-24 11:16:20,527 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 11:16:20,539 - INFO - Marked post 6132 as liked
+2025-07-24 11:16:20,549 - INFO - Updated profile 8528 to status 'week2_commenting'. Liked post 6132
+2025-07-24 11:16:20,550 - INFO - ✅ Successfully liked post 6132 by Rish Gupta
+2025-07-24 11:16:20,550 - INFO - Human-like delay: 24s...
+2025-07-24 11:16:44,550 - INFO - Processing post 15/25
+2025-07-24 11:16:44,550 - INFO - Liking post 6743 by Mayowa Ajayi
+2025-07-24 11:16:44,550 - INFO - Attempting to like post: urn:li:activity:7351725330778210304
+2025-07-24 11:16:44,797 - WARNING - URN mismatch for urn:li:activity:7351725330778210304. Attempting to extract correct URN.
+2025-07-24 11:16:44,798 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7351616077056901124
+2025-07-24 11:16:45,028 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 11:16:45,039 - INFO - Marked post 6743 as liked
+2025-07-24 11:16:45,049 - INFO - Updated profile 8570 to status 'week2_commenting'. Liked post 6743
+2025-07-24 11:16:45,049 - INFO - ✅ Successfully liked post 6743 by Mayowa Ajayi
+2025-07-24 11:16:45,049 - INFO - Human-like delay: 20s...
+2025-07-24 11:17:05,050 - INFO - Processing post 16/25
+2025-07-24 11:17:05,050 - INFO - Liking post 6434 by Vikram Abiruben
+2025-07-24 11:17:05,050 - INFO - Attempting to like post: urn:li:activity:7351583638896951296
+2025-07-24 11:17:05,290 - WARNING - URN mismatch for urn:li:activity:7351583638896951296. Attempting to extract correct URN.
+2025-07-24 11:17:05,290 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7350473878487330816
+2025-07-24 11:17:05,614 - INFO - Post already liked on retry (409 conflict): urn:li:ugcPost:7350473878487330816
+2025-07-24 11:17:05,627 - INFO - Marked post 6434 as liked
+2025-07-24 11:17:05,638 - INFO - Updated profile 8544 to status 'week2_commenting'. Liked post 6434
+2025-07-24 11:17:05,638 - INFO - ✅ Successfully liked post 6434 by Vikram Abiruben
+2025-07-24 11:17:05,638 - INFO - Human-like delay: 5s...
+2025-07-24 11:17:10,638 - INFO - Processing post 17/25
+2025-07-24 11:17:10,638 - INFO - Liking post 6133 by Rish Gupta
+2025-07-24 11:17:10,641 - INFO - Attempting to like post: urn:li:activity:7351376814667190273
+2025-07-24 11:17:11,204 - INFO - Successfully liked post. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 11:17:11,245 - INFO - Marked post 6133 as liked
+2025-07-24 11:17:11,253 - INFO - Updated profile 8528 to status 'week2_commenting'. Liked post 6133
+2025-07-24 11:17:11,253 - INFO - ✅ Successfully liked post 6133 by Rish Gupta
+2025-07-24 11:17:11,253 - INFO - Human-like delay: 7s...
+2025-07-24 11:17:18,254 - INFO - Processing post 18/25
+2025-07-24 11:17:18,254 - INFO - Liking post 6182 by Milena Rosendahl
+2025-07-24 11:17:18,254 - INFO - Attempting to like post: urn:li:activity:7351311278671302657
+2025-07-24 11:17:18,478 - WARNING - URN mismatch for urn:li:activity:7351311278671302657. Attempting to extract correct URN.
+2025-07-24 11:17:18,478 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7351311267267043329
+2025-07-24 11:17:18,705 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 11:17:18,716 - INFO - Marked post 6182 as liked
+2025-07-24 11:17:18,727 - INFO - Updated profile 8534 to status 'week2_commenting'. Liked post 6182
+2025-07-24 11:17:18,727 - INFO - ✅ Successfully liked post 6182 by Milena Rosendahl
+2025-07-24 11:17:18,727 - INFO - Human-like delay: 12s...
+2025-07-24 11:17:30,728 - INFO - Processing post 19/25
+2025-07-24 11:17:30,728 - INFO - Liking post 5236 by Alex Russell
+2025-07-24 11:17:30,728 - INFO - Attempting to like post: urn:li:activity:7350976675637026816
+2025-07-24 11:17:30,942 - WARNING - URN mismatch for urn:li:activity:7350976675637026816. Attempting to extract correct URN.
+2025-07-24 11:17:30,943 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7350939686975991808
+2025-07-24 11:17:31,168 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 11:17:31,177 - INFO - Marked post 5236 as liked
+2025-07-24 11:17:31,187 - INFO - Updated profile 8466 to status 'week2_commenting'. Liked post 5236
+2025-07-24 11:17:31,187 - INFO - ✅ Successfully liked post 5236 by Alex Russell
+2025-07-24 11:17:31,187 - INFO - Human-like delay: 24s...
+2025-07-24 11:17:55,188 - INFO - Processing post 20/25
+2025-07-24 11:17:55,188 - INFO - Liking post 6651 by Khadijah Davis
+2025-07-24 11:17:55,188 - INFO - Attempting to like post: urn:li:activity:7350955034546700289
+2025-07-24 11:17:55,423 - WARNING - URN mismatch for urn:li:activity:7350955034546700289. Attempting to extract correct URN.
+2025-07-24 11:17:55,424 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7350955031321337856
+2025-07-24 11:17:55,681 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 11:17:55,693 - INFO - Marked post 6651 as liked
+2025-07-24 11:17:55,702 - INFO - Updated profile 8557 to status 'week2_commenting'. Liked post 6651
+2025-07-24 11:17:55,703 - INFO - ✅ Successfully liked post 6651 by Khadijah Davis
+2025-07-24 11:17:55,703 - INFO - Human-like delay: 19s...
+2025-07-24 11:18:14,703 - INFO - Processing post 21/25
+2025-07-24 11:18:14,703 - INFO - Liking post 6435 by Vikram Abiruben
+2025-07-24 11:18:14,703 - INFO - Attempting to like post: urn:li:activity:7350838523052072960
+2025-07-24 11:18:14,927 - WARNING - URN mismatch for urn:li:activity:7350838523052072960. Attempting to extract correct URN.
+2025-07-24 11:18:14,927 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7350473878487330816
+2025-07-24 11:18:15,194 - INFO - Post already liked on retry (409 conflict): urn:li:ugcPost:7350473878487330816
+2025-07-24 11:18:15,210 - INFO - Marked post 6435 as liked
+2025-07-24 11:18:15,218 - INFO - Updated profile 8544 to status 'week2_commenting'. Liked post 6435
+2025-07-24 11:18:15,219 - INFO - ✅ Successfully liked post 6435 by Vikram Abiruben
+2025-07-24 11:18:15,219 - INFO - Human-like delay: 24s...
+2025-07-24 11:18:39,219 - INFO - Processing post 22/25
+2025-07-24 11:18:39,219 - INFO - Liking post 6092 by Jaime DeLanghe
+2025-07-24 11:18:39,220 - INFO - Attempting to like post: urn:li:activity:7350679655953117184
+2025-07-24 11:18:39,452 - WARNING - URN mismatch for urn:li:activity:7350679655953117184. Attempting to extract correct URN.
+2025-07-24 11:18:39,453 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7350575021506916352
+2025-07-24 11:18:39,744 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 11:18:39,756 - INFO - Marked post 6092 as liked
+2025-07-24 11:18:39,766 - INFO - Updated profile 8527 to status 'week2_commenting'. Liked post 6092
+2025-07-24 11:18:39,766 - INFO - ✅ Successfully liked post 6092 by Jaime DeLanghe
+2025-07-24 11:18:39,767 - INFO - Human-like delay: 5s...
+2025-07-24 11:18:44,767 - INFO - Processing post 23/25
+2025-07-24 11:18:44,767 - INFO - Liking post 6093 by Jaime DeLanghe
+2025-07-24 11:18:44,770 - INFO - Attempting to like post: urn:li:activity:7350679594938650624
+2025-07-24 11:18:45,002 - WARNING - URN mismatch for urn:li:activity:7350679594938650624. Attempting to extract correct URN.
+2025-07-24 11:18:45,002 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7350678870846554112
+2025-07-24 11:18:45,281 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 11:18:45,319 - INFO - Marked post 6093 as liked
+2025-07-24 11:18:45,325 - INFO - Updated profile 8527 to status 'week2_commenting'. Liked post 6093
+2025-07-24 11:18:45,325 - INFO - ✅ Successfully liked post 6093 by Jaime DeLanghe
+2025-07-24 11:18:45,325 - INFO - Human-like delay: 13s...
+2025-07-24 11:18:58,326 - INFO - Processing post 24/25
+2025-07-24 11:18:58,326 - INFO - Liking post 6134 by Rish Gupta
+2025-07-24 11:18:58,326 - INFO - Attempting to like post: urn:li:activity:7350644749009108993
+2025-07-24 11:18:58,556 - WARNING - URN mismatch for urn:li:activity:7350644749009108993. Attempting to extract correct URN.
+2025-07-24 11:18:58,556 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7350644631795085312
+2025-07-24 11:18:58,786 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-24 11:18:58,800 - INFO - Marked post 6134 as liked
+2025-07-24 11:18:58,809 - INFO - Updated profile 8528 to status 'week2_commenting'. Liked post 6134
+2025-07-24 11:18:58,810 - INFO - ✅ Successfully liked post 6134 by Rish Gupta
+2025-07-24 11:18:58,810 - INFO - Human-like delay: 12s...
+2025-07-24 11:19:10,810 - INFO - Processing post 25/25
+2025-07-24 11:19:10,810 - INFO - Liking post 6436 by Vikram Abiruben
+2025-07-24 11:19:10,811 - INFO - Attempting to like post: urn:li:activity:7350473880269910019
+2025-07-24 11:19:11,024 - WARNING - URN mismatch for urn:li:activity:7350473880269910019. Attempting to extract correct URN.
+2025-07-24 11:19:11,024 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7350473878487330816
+2025-07-24 11:19:11,272 - INFO - Post already liked on retry (409 conflict): urn:li:ugcPost:7350473878487330816
+2025-07-24 11:19:11,311 - INFO - Marked post 6436 as liked
+2025-07-24 11:19:11,318 - INFO - Updated profile 8544 to status 'week2_commenting'. Liked post 6436
+2025-07-24 11:19:11,318 - INFO - ✅ Successfully liked post 6436 by Vikram Abiruben
+2025-07-24 11:19:11,318 - INFO - Batch liking completed: 25 likes, 25 profiles advanced
+2025-07-25 07:22:01,097 - INFO - Database setup completed
+2025-07-25 07:22:01,097 - INFO - Current liking statistics:
+2025-07-25 07:22:01,121 - INFO - Profile status breakdown:
+2025-07-25 07:22:01,121 - INFO -   maintenance: 8445
+2025-07-25 07:22:01,122 - INFO -   not_started: 11
+2025-07-25 07:22:01,122 - INFO -   week1_liking: 6
+2025-07-25 07:22:01,122 - INFO -   week2_commenting: 28
+2025-07-25 07:22:01,122 - INFO -   week3_invitation: 140
+2025-07-25 07:22:01,122 - INFO - Total posts with URN: 8001
+2025-07-25 07:22:01,122 - INFO - Posts already liked: 94
+2025-07-25 07:22:01,122 - INFO - Failed likes: 32
+2025-07-25 07:22:01,122 - INFO - Week1 candidates ready for liking: 2
+2025-07-25 07:22:01,122 - INFO - DEBUG - Profiles in week1_liking status: 6
+2025-07-25 07:22:01,122 - INFO - DEBUG - Posts with recent dates (<21 days): 148
+2025-07-25 07:22:01,122 - INFO - Last liked: 2025-07-24 15:19:11
+2025-07-25 07:22:01,122 - INFO - Starting post liking batch (max 25 likes)
+2025-07-25 07:22:01,122 - INFO - Validating LinkedIn credentials...
+2025-07-25 07:22:01,574 - INFO - LinkedIn validation successful. User ID: BWhT9OIznT
+2025-07-25 07:22:01,575 - INFO - Found 12 posts ready for liking
+2025-07-25 07:22:01,575 - INFO - Processing 12 posts
+2025-07-25 07:22:01,575 - INFO - Processing post 1/12
+2025-07-25 07:22:01,575 - INFO - Liking post 7214 by Ryan Drewery
+2025-07-25 07:22:01,575 - INFO - Attempting to like post: urn:li:activity:7353992482063335428
+2025-07-25 07:22:01,841 - WARNING - URN mismatch for urn:li:activity:7353992482063335428. Attempting to extract correct URN.
+2025-07-25 07:22:01,841 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7353992481278976002
+2025-07-25 07:22:02,108 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 07:22:02,152 - INFO - Marked post 7214 as liked
+2025-07-25 07:22:02,160 - INFO - Updated profile 8581 to status 'week2_commenting'. Liked post 7214
+2025-07-25 07:22:02,160 - INFO - ✅ Successfully liked post 7214 by Ryan Drewery
+2025-07-25 07:22:02,160 - INFO - Human-like delay: 10s...
+2025-07-25 07:22:12,160 - INFO - Processing post 2/12
+2025-07-25 07:22:12,161 - INFO - Liking post 7215 by Ryan Drewery
+2025-07-25 07:22:12,161 - INFO - Attempting to like post: urn:li:activity:7353992381756551168
+2025-07-25 07:22:12,431 - INFO - Successfully liked post. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 07:22:12,442 - INFO - Marked post 7215 as liked
+2025-07-25 07:22:12,450 - INFO - Updated profile 8581 to status 'week2_commenting'. Liked post 7215
+2025-07-25 07:22:12,450 - INFO - ✅ Successfully liked post 7215 by Ryan Drewery
+2025-07-25 07:22:12,450 - INFO - Human-like delay: 8s...
+2025-07-25 07:22:20,450 - INFO - Processing post 3/12
+2025-07-25 07:22:20,450 - INFO - Liking post 7216 by Ryan Drewery
+2025-07-25 07:22:20,450 - INFO - Attempting to like post: urn:li:activity:7353872206096941058
+2025-07-25 07:22:20,793 - WARNING - URN mismatch for urn:li:activity:7353872206096941058. Attempting to extract correct URN.
+2025-07-25 07:22:20,793 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7353820535685849091
+2025-07-25 07:22:21,072 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 07:22:21,083 - INFO - Marked post 7216 as liked
+2025-07-25 07:22:21,090 - INFO - Updated profile 8581 to status 'week2_commenting'. Liked post 7216
+2025-07-25 07:22:21,090 - INFO - ✅ Successfully liked post 7216 by Ryan Drewery
+2025-07-25 07:22:21,090 - INFO - Human-like delay: 18s...
+2025-07-25 07:22:39,091 - INFO - Processing post 4/12
+2025-07-25 07:22:39,091 - INFO - Liking post 7217 by Ryan Drewery
+2025-07-25 07:22:39,091 - INFO - Attempting to like post: urn:li:activity:7351841340130742272
+2025-07-25 07:22:39,376 - INFO - Successfully liked post. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 07:22:39,387 - INFO - Marked post 7217 as liked
+2025-07-25 07:22:39,395 - INFO - Updated profile 8581 to status 'week2_commenting'. Liked post 7217
+2025-07-25 07:22:39,395 - INFO - ✅ Successfully liked post 7217 by Ryan Drewery
+2025-07-25 07:22:39,396 - INFO - Human-like delay: 6s...
+2025-07-25 07:22:45,396 - INFO - Processing post 5/12
+2025-07-25 07:22:45,396 - INFO - Liking post 7264 by Milly Poole
+2025-07-25 07:22:45,396 - INFO - Attempting to like post: urn:li:activity:7351555514196979713
+2025-07-25 07:22:45,634 - WARNING - URN mismatch for urn:li:activity:7351555514196979713. Attempting to extract correct URN.
+2025-07-25 07:22:45,634 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7351555513463021570
+2025-07-25 07:22:45,967 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 07:22:46,011 - INFO - Marked post 7264 as liked
+2025-07-25 07:22:46,019 - INFO - Updated profile 8582 to status 'week2_commenting'. Liked post 7264
+2025-07-25 07:22:46,019 - INFO - ✅ Successfully liked post 7264 by Milly Poole
+2025-07-25 07:22:46,019 - INFO - Human-like delay: 5s...
+2025-07-25 07:22:51,019 - INFO - Processing post 6/12
+2025-07-25 07:22:51,020 - INFO - Liking post 7218 by Ryan Drewery
+2025-07-25 07:22:51,023 - INFO - Attempting to like post: urn:li:activity:7351335613054218242
+2025-07-25 07:22:51,263 - WARNING - URN mismatch for urn:li:activity:7351335613054218242. Attempting to extract correct URN.
+2025-07-25 07:22:51,263 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7351220099338366977
+2025-07-25 07:22:51,538 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 07:22:51,584 - INFO - Marked post 7218 as liked
+2025-07-25 07:22:51,592 - INFO - Updated profile 8581 to status 'week2_commenting'. Liked post 7218
+2025-07-25 07:22:51,592 - INFO - ✅ Successfully liked post 7218 by Ryan Drewery
+2025-07-25 07:22:51,592 - INFO - Human-like delay: 20s...
+2025-07-25 07:23:11,593 - INFO - Processing post 7/12
+2025-07-25 07:23:11,593 - INFO - Liking post 7219 by Ryan Drewery
+2025-07-25 07:23:11,593 - INFO - Attempting to like post: urn:li:activity:7350418530720210944
+2025-07-25 07:23:11,903 - WARNING - URN mismatch for urn:li:activity:7350418530720210944. Attempting to extract correct URN.
+2025-07-25 07:23:11,903 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7350418529969496064
+2025-07-25 07:23:12,159 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 07:23:12,170 - INFO - Marked post 7219 as liked
+2025-07-25 07:23:12,178 - INFO - Updated profile 8581 to status 'week2_commenting'. Liked post 7219
+2025-07-25 07:23:12,178 - INFO - ✅ Successfully liked post 7219 by Ryan Drewery
+2025-07-25 07:23:12,179 - INFO - Human-like delay: 24s...
+2025-07-25 07:23:36,179 - INFO - Processing post 8/12
+2025-07-25 07:23:36,179 - INFO - Liking post 7220 by Ryan Drewery
+2025-07-25 07:23:36,179 - INFO - Attempting to like post: urn:li:activity:7349714837532209153
+2025-07-25 07:23:36,427 - WARNING - URN mismatch for urn:li:activity:7349714837532209153. Attempting to extract correct URN.
+2025-07-25 07:23:36,427 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7349559372676591618
+2025-07-25 07:23:36,727 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 07:23:36,737 - INFO - Marked post 7220 as liked
+2025-07-25 07:23:36,745 - INFO - Updated profile 8581 to status 'week2_commenting'. Liked post 7220
+2025-07-25 07:23:36,745 - INFO - ✅ Successfully liked post 7220 by Ryan Drewery
+2025-07-25 07:23:36,745 - INFO - Human-like delay: 17s...
+2025-07-25 07:23:53,745 - INFO - Processing post 9/12
+2025-07-25 07:23:53,745 - INFO - Liking post 7221 by Ryan Drewery
+2025-07-25 07:23:53,745 - INFO - Attempting to like post: urn:li:activity:7349676955975270400
+2025-07-25 07:23:53,987 - WARNING - URN mismatch for urn:li:activity:7349676955975270400. Attempting to extract correct URN.
+2025-07-25 07:23:53,987 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7349514081575313408
+2025-07-25 07:23:54,262 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 07:23:54,274 - INFO - Marked post 7221 as liked
+2025-07-25 07:23:54,282 - INFO - Updated profile 8581 to status 'week2_commenting'. Liked post 7221
+2025-07-25 07:23:54,282 - INFO - ✅ Successfully liked post 7221 by Ryan Drewery
+2025-07-25 07:23:54,282 - INFO - Human-like delay: 12s...
+2025-07-25 07:24:06,283 - INFO - Processing post 10/12
+2025-07-25 07:24:06,283 - INFO - Liking post 7222 by Ryan Drewery
+2025-07-25 07:24:06,283 - INFO - Attempting to like post: urn:li:activity:7349186979122532353
+2025-07-25 07:24:06,531 - WARNING - URN mismatch for urn:li:activity:7349186979122532353. Attempting to extract correct URN.
+2025-07-25 07:24:06,531 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7349152208841498635
+2025-07-25 07:24:06,811 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 07:24:06,823 - INFO - Marked post 7222 as liked
+2025-07-25 07:24:06,830 - INFO - Updated profile 8581 to status 'week2_commenting'. Liked post 7222
+2025-07-25 07:24:06,830 - INFO - ✅ Successfully liked post 7222 by Ryan Drewery
+2025-07-25 07:24:06,831 - INFO - Human-like delay: 8s...
+2025-07-25 07:24:14,831 - INFO - Processing post 11/12
+2025-07-25 07:24:14,831 - INFO - Liking post 7223 by Ryan Drewery
+2025-07-25 07:24:14,831 - INFO - Attempting to like post: urn:li:activity:7348775862848135168
+2025-07-25 07:24:15,082 - WARNING - URN mismatch for urn:li:activity:7348775862848135168. Attempting to extract correct URN.
+2025-07-25 07:24:15,083 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7348760992878628865
+2025-07-25 07:24:15,545 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 07:24:15,556 - INFO - Marked post 7223 as liked
+2025-07-25 07:24:15,564 - INFO - Updated profile 8581 to status 'week2_commenting'. Liked post 7223
+2025-07-25 07:24:15,564 - INFO - ✅ Successfully liked post 7223 by Ryan Drewery
+2025-07-25 07:24:15,565 - INFO - Human-like delay: 16s...
+2025-07-25 07:24:31,565 - INFO - Processing post 12/12
+2025-07-25 07:24:31,565 - INFO - Liking post 7224 by Ryan Drewery
+2025-07-25 07:24:31,565 - INFO - Attempting to like post: urn:li:activity:7347723105282211840
+2025-07-25 07:24:31,809 - WARNING - URN mismatch for urn:li:activity:7347723105282211840. Attempting to extract correct URN.
+2025-07-25 07:24:31,809 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7347622049210617858
+2025-07-25 07:24:32,067 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 07:24:32,077 - INFO - Marked post 7224 as liked
+2025-07-25 07:24:32,087 - INFO - Updated profile 8581 to status 'week2_commenting'. Liked post 7224
+2025-07-25 07:24:32,087 - INFO - ✅ Successfully liked post 7224 by Ryan Drewery
+2025-07-25 07:24:32,087 - INFO - Batch liking completed: 12 likes, 12 profiles advanced
+2025-07-25 11:05:53,464 - INFO - Database setup completed
+2025-07-25 11:05:53,464 - INFO - Current liking statistics:
+2025-07-25 11:05:53,494 - INFO - Profile status breakdown:
+2025-07-25 11:05:53,494 - INFO -   maintenance: 8442
+2025-07-25 11:05:53,494 - INFO -   week1_liking: 14
+2025-07-25 11:05:53,495 - INFO -   week2_commenting: 27
+2025-07-25 11:05:53,495 - INFO -   week3_invitation: 147
+2025-07-25 11:05:53,495 - INFO - Total posts with URN: 9302
+2025-07-25 11:05:53,495 - INFO - Posts already liked: 106
+2025-07-25 11:05:53,495 - INFO - Failed likes: 32
+2025-07-25 11:05:53,495 - INFO - Week1 candidates ready for liking: 10
+2025-07-25 11:05:53,495 - INFO - DEBUG - Profiles in week1_liking status: 14
+2025-07-25 11:05:53,495 - INFO - DEBUG - Posts with recent dates (<21 days): 178
+2025-07-25 11:05:53,495 - INFO - Last liked: 2025-07-25 11:24:32
+2025-07-25 11:05:53,495 - INFO - Starting post liking batch (max 25 likes)
+2025-07-25 11:05:53,495 - INFO - Validating LinkedIn credentials...
+2025-07-25 11:05:58,920 - INFO - LinkedIn validation successful. User ID: BWhT9OIznT
+2025-07-25 11:05:58,921 - INFO - Found 30 posts ready for liking
+2025-07-25 11:05:58,922 - INFO - Processing 25 posts
+2025-07-25 11:05:58,922 - INFO - Processing post 1/25
+2025-07-25 11:05:58,922 - INFO - Liking post 9191 by Jude Greenspan
+2025-07-25 11:05:58,922 - INFO - Attempting to like post: urn:li:activity:7354254782087237632
+2025-07-25 11:05:59,168 - WARNING - URN mismatch for urn:li:activity:7354254782087237632. Attempting to extract correct URN.
+2025-07-25 11:05:59,169 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7354207232424574976
+2025-07-25 11:05:59,448 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 11:05:59,476 - INFO - Marked post 9191 as liked
+2025-07-25 11:05:59,481 - INFO - Updated profile 644 to status 'week2_commenting'. Liked post 9191
+2025-07-25 11:05:59,481 - INFO - ✅ Successfully liked post 9191 by Jude Greenspan
+2025-07-25 11:05:59,481 - INFO - Human-like delay: 7s...
+2025-07-25 11:06:06,482 - INFO - Processing post 2/25
+2025-07-25 11:06:06,482 - INFO - Liking post 9192 by Jude Greenspan
+2025-07-25 11:06:06,482 - INFO - Attempting to like post: urn:li:activity:7353843411830853635
+2025-07-25 11:06:06,819 - WARNING - URN mismatch for urn:li:activity:7353843411830853635. Attempting to extract correct URN.
+2025-07-25 11:06:06,819 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7353785857977262081
+2025-07-25 11:06:07,129 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 11:06:07,136 - INFO - Marked post 9192 as liked
+2025-07-25 11:06:07,141 - INFO - Updated profile 644 to status 'week2_commenting'. Liked post 9192
+2025-07-25 11:06:07,141 - INFO - ✅ Successfully liked post 9192 by Jude Greenspan
+2025-07-25 11:06:07,141 - INFO - Human-like delay: 6s...
+2025-07-25 11:06:13,141 - INFO - Processing post 3/25
+2025-07-25 11:06:13,142 - INFO - Liking post 8834 by Manvinder Singh
+2025-07-25 11:06:13,142 - INFO - Attempting to like post: urn:li:activity:7353289485045964804
+2025-07-25 11:06:13,396 - WARNING - URN mismatch for urn:li:activity:7353289485045964804. Attempting to extract correct URN.
+2025-07-25 11:06:13,396 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7352971856699703297
+2025-07-25 11:06:13,661 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 11:06:13,666 - INFO - Marked post 8834 as liked
+2025-07-25 11:06:13,671 - INFO - Updated profile 578 to status 'week2_commenting'. Liked post 8834
+2025-07-25 11:06:13,671 - INFO - ✅ Successfully liked post 8834 by Manvinder Singh
+2025-07-25 11:06:13,671 - INFO - Human-like delay: 16s...
+2025-07-25 11:06:29,671 - INFO - Processing post 4/25
+2025-07-25 11:06:29,671 - INFO - Liking post 8835 by Manvinder Singh
+2025-07-25 11:06:29,671 - INFO - Attempting to like post: urn:li:activity:7352707246843187200
+2025-07-25 11:06:29,915 - WARNING - URN mismatch for urn:li:activity:7352707246843187200. Attempting to extract correct URN.
+2025-07-25 11:06:29,915 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7352451171032158209
+2025-07-25 11:06:30,205 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 11:06:30,234 - INFO - Marked post 8835 as liked
+2025-07-25 11:06:30,239 - INFO - Updated profile 578 to status 'week2_commenting'. Liked post 8835
+2025-07-25 11:06:30,239 - INFO - ✅ Successfully liked post 8835 by Manvinder Singh
+2025-07-25 11:06:30,239 - INFO - Human-like delay: 14s...
+2025-07-25 11:06:44,240 - INFO - Processing post 5/25
+2025-07-25 11:06:44,240 - INFO - Liking post 8836 by Manvinder Singh
+2025-07-25 11:06:44,240 - INFO - Attempting to like post: urn:li:activity:7352487357998157824
+2025-07-25 11:06:44,491 - WARNING - URN mismatch for urn:li:activity:7352487357998157824. Attempting to extract correct URN.
+2025-07-25 11:06:44,491 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7352471060975423491
+2025-07-25 11:06:44,824 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 11:06:44,831 - INFO - Marked post 8836 as liked
+2025-07-25 11:06:44,836 - INFO - Updated profile 578 to status 'week2_commenting'. Liked post 8836
+2025-07-25 11:06:44,836 - INFO - ✅ Successfully liked post 8836 by Manvinder Singh
+2025-07-25 11:06:44,837 - INFO - Human-like delay: 11s...
+2025-07-25 11:06:55,837 - INFO - Processing post 6/25
+2025-07-25 11:06:55,837 - INFO - Liking post 8837 by Manvinder Singh
+2025-07-25 11:06:55,837 - INFO - Attempting to like post: urn:li:activity:7351742351645528064
+2025-07-25 11:06:56,094 - WARNING - URN mismatch for urn:li:activity:7351742351645528064. Attempting to extract correct URN.
+2025-07-25 11:06:56,094 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7351381915578347521
+2025-07-25 11:06:56,394 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 11:06:56,425 - INFO - Marked post 8837 as liked
+2025-07-25 11:06:56,432 - INFO - Updated profile 578 to status 'week2_commenting'. Liked post 8837
+2025-07-25 11:06:56,432 - INFO - ✅ Successfully liked post 8837 by Manvinder Singh
+2025-07-25 11:06:56,432 - INFO - Human-like delay: 6s...
+2025-07-25 11:07:02,433 - INFO - Processing post 7/25
+2025-07-25 11:07:02,433 - INFO - Liking post 8838 by Manvinder Singh
+2025-07-25 11:07:02,433 - INFO - Attempting to like post: urn:li:activity:7351663877991882753
+2025-07-25 11:07:02,724 - INFO - Successfully liked post. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 11:07:02,732 - INFO - Marked post 8838 as liked
+2025-07-25 11:07:02,738 - INFO - Updated profile 578 to status 'week2_commenting'. Liked post 8838
+2025-07-25 11:07:02,738 - INFO - ✅ Successfully liked post 8838 by Manvinder Singh
+2025-07-25 11:07:02,739 - INFO - Human-like delay: 11s...
+2025-07-25 11:07:13,740 - INFO - Processing post 8/25
+2025-07-25 11:07:13,740 - INFO - Liking post 8839 by Manvinder Singh
+2025-07-25 11:07:13,740 - INFO - Attempting to like post: urn:li:activity:7351663319188975617
+2025-07-25 11:07:14,078 - INFO - Successfully liked post. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 11:07:14,107 - INFO - Marked post 8839 as liked
+2025-07-25 11:07:14,114 - INFO - Updated profile 578 to status 'week2_commenting'. Liked post 8839
+2025-07-25 11:07:14,114 - INFO - ✅ Successfully liked post 8839 by Manvinder Singh
+2025-07-25 11:07:14,115 - INFO - Human-like delay: 12s...
+2025-07-25 11:07:26,115 - INFO - Processing post 9/25
+2025-07-25 11:07:26,115 - INFO - Liking post 8840 by Manvinder Singh
+2025-07-25 11:07:26,115 - INFO - Attempting to like post: urn:li:activity:7351323290646298624
+2025-07-25 11:07:26,388 - INFO - Successfully liked post. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 11:07:26,396 - INFO - Marked post 8840 as liked
+2025-07-25 11:07:26,400 - INFO - Updated profile 578 to status 'week2_commenting'. Liked post 8840
+2025-07-25 11:07:26,400 - INFO - ✅ Successfully liked post 8840 by Manvinder Singh
+2025-07-25 11:07:26,400 - INFO - Human-like delay: 20s...
+2025-07-25 11:07:46,400 - INFO - Processing post 10/25
+2025-07-25 11:07:46,400 - INFO - Liking post 8756 by Robert Saxby
+2025-07-25 11:07:46,401 - INFO - Attempting to like post: urn:li:activity:7350963047374516224
+2025-07-25 11:07:46,890 - INFO - Successfully liked post. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 11:07:46,897 - INFO - Marked post 8756 as liked
+2025-07-25 11:07:46,901 - INFO - Updated profile 541 to status 'week2_commenting'. Liked post 8756
+2025-07-25 11:07:46,901 - INFO - ✅ Successfully liked post 8756 by Robert Saxby
+2025-07-25 11:07:46,901 - INFO - Human-like delay: 19s...
+2025-07-25 11:08:05,902 - INFO - Processing post 11/25
+2025-07-25 11:08:05,902 - INFO - Liking post 9193 by Jude Greenspan
+2025-07-25 11:08:05,902 - INFO - Attempting to like post: urn:li:activity:7350249539687120898
+2025-07-25 11:08:06,167 - WARNING - URN mismatch for urn:li:activity:7350249539687120898. Attempting to extract correct URN.
+2025-07-25 11:08:06,167 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7348008896239747074
+2025-07-25 11:08:06,461 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 11:08:06,468 - INFO - Marked post 9193 as liked
+2025-07-25 11:08:06,473 - INFO - Updated profile 644 to status 'week2_commenting'. Liked post 9193
+2025-07-25 11:08:06,473 - INFO - ✅ Successfully liked post 9193 by Jude Greenspan
+2025-07-25 11:08:06,473 - INFO - Human-like delay: 10s...
+2025-07-25 11:08:16,473 - INFO - Processing post 12/25
+2025-07-25 11:08:16,474 - INFO - Liking post 8841 by Manvinder Singh
+2025-07-25 11:08:16,474 - INFO - Attempting to like post: urn:li:activity:7349590822427742208
+2025-07-25 11:08:16,783 - WARNING - URN mismatch for urn:li:activity:7349590822427742208. Attempting to extract correct URN.
+2025-07-25 11:08:16,783 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7344249900198522880
+2025-07-25 11:08:17,068 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 11:08:17,097 - INFO - Marked post 8841 as liked
+2025-07-25 11:08:17,101 - INFO - Updated profile 578 to status 'week2_commenting'. Liked post 8841
+2025-07-25 11:08:17,101 - INFO - ✅ Successfully liked post 8841 by Manvinder Singh
+2025-07-25 11:08:17,102 - INFO - Human-like delay: 18s...
+2025-07-25 11:08:35,102 - INFO - Processing post 13/25
+2025-07-25 11:08:35,102 - INFO - Liking post 8757 by Robert Saxby
+2025-07-25 11:08:35,102 - INFO - Attempting to like post: urn:li:activity:7349361916022079490
+2025-07-25 11:08:35,347 - WARNING - URN mismatch for urn:li:activity:7349361916022079490. Attempting to extract correct URN.
+2025-07-25 11:08:35,347 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7347728884554940416
+2025-07-25 11:08:35,615 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 11:08:35,622 - INFO - Marked post 8757 as liked
+2025-07-25 11:08:35,626 - INFO - Updated profile 541 to status 'week2_commenting'. Liked post 8757
+2025-07-25 11:08:35,626 - INFO - ✅ Successfully liked post 8757 by Robert Saxby
+2025-07-25 11:08:35,626 - INFO - Human-like delay: 14s...
+2025-07-25 11:08:49,626 - INFO - Processing post 14/25
+2025-07-25 11:08:49,627 - INFO - Liking post 8842 by Manvinder Singh
+2025-07-25 11:08:49,627 - INFO - Attempting to like post: urn:li:activity:7349150254170087425
+2025-07-25 11:08:49,920 - INFO - Successfully liked post. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 11:08:49,927 - INFO - Marked post 8842 as liked
+2025-07-25 11:08:49,932 - INFO - Updated profile 578 to status 'week2_commenting'. Liked post 8842
+2025-07-25 11:08:49,932 - INFO - ✅ Successfully liked post 8842 by Manvinder Singh
+2025-07-25 11:08:49,932 - INFO - Human-like delay: 15s...
+2025-07-25 11:09:04,933 - INFO - Processing post 15/25
+2025-07-25 11:09:04,933 - INFO - Liking post 8758 by Robert Saxby
+2025-07-25 11:09:04,933 - INFO - Attempting to like post: urn:li:activity:7349027507897044992
+2025-07-25 11:09:05,184 - WARNING - URN mismatch for urn:li:activity:7349027507897044992. Attempting to extract correct URN.
+2025-07-25 11:09:05,185 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7348766827251982340
+2025-07-25 11:09:05,458 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 11:09:05,465 - INFO - Marked post 8758 as liked
+2025-07-25 11:09:05,469 - INFO - Updated profile 541 to status 'week2_commenting'. Liked post 8758
+2025-07-25 11:09:05,469 - INFO - ✅ Successfully liked post 8758 by Robert Saxby
+2025-07-25 11:09:05,469 - INFO - Human-like delay: 21s...
+2025-07-25 11:09:26,469 - INFO - Processing post 16/25
+2025-07-25 11:09:26,470 - INFO - Liking post 8843 by Manvinder Singh
+2025-07-25 11:09:26,470 - INFO - Attempting to like post: urn:li:activity:7348865058573012993
+2025-07-25 11:09:26,715 - WARNING - URN mismatch for urn:li:activity:7348865058573012993. Attempting to extract correct URN.
+2025-07-25 11:09:26,715 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7343374288135102465
+2025-07-25 11:09:26,993 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 11:09:27,000 - INFO - Marked post 8843 as liked
+2025-07-25 11:09:27,004 - INFO - Updated profile 578 to status 'week2_commenting'. Liked post 8843
+2025-07-25 11:09:27,004 - INFO - ✅ Successfully liked post 8843 by Manvinder Singh
+2025-07-25 11:09:27,004 - INFO - Human-like delay: 24s...
+2025-07-25 11:09:51,004 - INFO - Processing post 17/25
+2025-07-25 11:09:51,004 - INFO - Liking post 8844 by Manvinder Singh
+2025-07-25 11:09:51,005 - INFO - Attempting to like post: urn:li:activity:7348777252735655939
+2025-07-25 11:09:51,258 - WARNING - URN mismatch for urn:li:activity:7348777252735655939. Attempting to extract correct URN.
+2025-07-25 11:09:51,258 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7348775654831607808
+2025-07-25 11:09:51,609 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 11:09:51,616 - INFO - Marked post 8844 as liked
+2025-07-25 11:09:51,620 - INFO - Updated profile 578 to status 'week2_commenting'. Liked post 8844
+2025-07-25 11:09:51,620 - INFO - ✅ Successfully liked post 8844 by Manvinder Singh
+2025-07-25 11:09:51,621 - INFO - Human-like delay: 11s...
+2025-07-25 11:10:02,621 - INFO - Processing post 18/25
+2025-07-25 11:10:02,621 - INFO - Liking post 8845 by Manvinder Singh
+2025-07-25 11:10:02,621 - INFO - Attempting to like post: urn:li:activity:7348763057617031170
+2025-07-25 11:10:02,998 - WARNING - URN mismatch for urn:li:activity:7348763057617031170. Attempting to extract correct URN.
+2025-07-25 11:10:02,998 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7348750920886677505
+2025-07-25 11:10:03,276 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 11:10:03,306 - INFO - Marked post 8845 as liked
+2025-07-25 11:10:03,310 - INFO - Updated profile 578 to status 'week2_commenting'. Liked post 8845
+2025-07-25 11:10:03,310 - INFO - ✅ Successfully liked post 8845 by Manvinder Singh
+2025-07-25 11:10:03,310 - INFO - Human-like delay: 12s...
+2025-07-25 11:10:15,310 - INFO - Processing post 19/25
+2025-07-25 11:10:15,311 - INFO - Liking post 8759 by Robert Saxby
+2025-07-25 11:10:15,311 - INFO - Attempting to like post: urn:li:activity:7348317633739468803
+2025-07-25 11:10:15,894 - INFO - Successfully liked post. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 11:10:15,901 - INFO - Marked post 8759 as liked
+2025-07-25 11:10:15,906 - INFO - Updated profile 541 to status 'week2_commenting'. Liked post 8759
+2025-07-25 11:10:15,906 - INFO - ✅ Successfully liked post 8759 by Robert Saxby
+2025-07-25 11:10:15,906 - INFO - Human-like delay: 15s...
+2025-07-25 11:10:30,906 - INFO - Processing post 20/25
+2025-07-25 11:10:30,906 - INFO - Liking post 8846 by Manvinder Singh
+2025-07-25 11:10:30,906 - INFO - Attempting to like post: urn:li:activity:7347991132296925184
+2025-07-25 11:10:31,190 - INFO - Successfully liked post. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 11:10:31,198 - INFO - Marked post 8846 as liked
+2025-07-25 11:10:31,201 - INFO - Updated profile 578 to status 'week2_commenting'. Liked post 8846
+2025-07-25 11:10:31,201 - INFO - ✅ Successfully liked post 8846 by Manvinder Singh
+2025-07-25 11:10:31,201 - INFO - Human-like delay: 8s...
+2025-07-25 11:10:39,202 - INFO - Processing post 21/25
+2025-07-25 11:10:39,202 - INFO - Liking post 8190 by Jillian MacLaury
+2025-07-25 11:10:39,202 - INFO - Attempting to like post: urn:li:activity:7354218060032942082
+2025-07-25 11:10:39,490 - WARNING - URN mismatch for urn:li:activity:7354218060032942082. Attempting to extract correct URN.
+2025-07-25 11:10:39,490 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7354218059449913344
+2025-07-25 11:10:39,769 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 11:10:39,775 - INFO - Marked post 8190 as liked
+2025-07-25 11:10:39,780 - INFO - Updated profile 8623 to status 'week2_commenting'. Liked post 8190
+2025-07-25 11:10:39,780 - INFO - ✅ Successfully liked post 8190 by Jillian MacLaury
+2025-07-25 11:10:39,781 - INFO - Human-like delay: 25s...
+2025-07-25 11:11:04,781 - INFO - Processing post 22/25
+2025-07-25 11:11:04,781 - INFO - Liking post 8049 by Navid R.
+2025-07-25 11:11:04,781 - INFO - Attempting to like post: urn:li:activity:7354189427067293696
+2025-07-25 11:11:05,038 - WARNING - URN mismatch for urn:li:activity:7354189427067293696. Attempting to extract correct URN.
+2025-07-25 11:11:05,038 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7354180900332494849
+2025-07-25 11:11:05,322 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 11:11:05,330 - INFO - Marked post 8049 as liked
+2025-07-25 11:11:05,333 - INFO - Updated profile 8614 to status 'week2_commenting'. Liked post 8049
+2025-07-25 11:11:05,333 - INFO - ✅ Successfully liked post 8049 by Navid R.
+2025-07-25 11:11:05,334 - INFO - Human-like delay: 12s...
+2025-07-25 11:11:17,334 - INFO - Processing post 23/25
+2025-07-25 11:11:17,334 - INFO - Liking post 8050 by Navid R.
+2025-07-25 11:11:17,334 - INFO - Attempting to like post: urn:li:activity:7354189305579278336
+2025-07-25 11:11:17,594 - WARNING - URN mismatch for urn:li:activity:7354189305579278336. Attempting to extract correct URN.
+2025-07-25 11:11:17,594 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7354182507023511552
+2025-07-25 11:11:17,885 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 11:11:17,891 - INFO - Marked post 8050 as liked
+2025-07-25 11:11:17,895 - INFO - Updated profile 8614 to status 'week2_commenting'. Liked post 8050
+2025-07-25 11:11:17,896 - INFO - ✅ Successfully liked post 8050 by Navid R.
+2025-07-25 11:11:17,896 - INFO - Human-like delay: 13s...
+2025-07-25 11:11:30,896 - INFO - Processing post 24/25
+2025-07-25 11:11:30,896 - INFO - Liking post 8206 by Sakina Raniwala
+2025-07-25 11:11:30,896 - INFO - Attempting to like post: urn:li:activity:7353775039562821632
+2025-07-25 11:11:31,231 - WARNING - URN mismatch for urn:li:activity:7353775039562821632. Attempting to extract correct URN.
+2025-07-25 11:11:31,232 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7353099050210000896
+2025-07-25 11:11:31,491 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 11:11:31,498 - INFO - Marked post 8206 as liked
+2025-07-25 11:11:31,503 - INFO - Updated profile 8624 to status 'week2_commenting'. Liked post 8206
+2025-07-25 11:11:31,503 - INFO - ✅ Successfully liked post 8206 by Sakina Raniwala
+2025-07-25 11:11:31,503 - INFO - Human-like delay: 9s...
+2025-07-25 11:11:40,503 - INFO - Processing post 25/25
+2025-07-25 11:11:40,503 - INFO - Liking post 8306 by Kevin Sullivan
+2025-07-25 11:11:40,504 - INFO - Attempting to like post: urn:li:activity:7351947711509635074
+2025-07-25 11:11:40,796 - INFO - Successfully liked post. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 11:11:40,804 - INFO - Marked post 8306 as liked
+2025-07-25 11:11:40,808 - INFO - Updated profile 8627 to status 'week2_commenting'. Liked post 8306
+2025-07-25 11:11:40,808 - INFO - ✅ Successfully liked post 8306 by Kevin Sullivan
+2025-07-25 11:11:40,808 - INFO - Batch liking completed: 25 likes, 25 profiles advanced
+2025-07-25 14:39:58,888 - INFO - Database setup completed
+2025-07-25 14:39:58,888 - INFO - Current liking statistics:
+2025-07-25 14:39:58,936 - INFO - Profile status breakdown:
+2025-07-25 14:39:58,936 - INFO -   maintenance: 8447
+2025-07-25 14:39:58,936 - INFO -   not_started: 562
+2025-07-25 14:39:58,936 - INFO -   week1_liking: 20
+2025-07-25 14:39:58,936 - INFO -   week3_invitation: 178
+2025-07-25 14:39:58,936 - INFO - Total posts with URN: 10219
+2025-07-25 14:39:58,937 - INFO - Posts already liked: 131
+2025-07-25 14:39:58,937 - INFO - Failed likes: 32
+2025-07-25 14:39:58,937 - INFO - Week1 candidates ready for liking: 16
+2025-07-25 14:39:58,937 - INFO - DEBUG - Profiles in week1_liking status: 20
+2025-07-25 14:39:58,937 - INFO - DEBUG - Posts with recent dates (<21 days): 233
+2025-07-25 14:39:58,937 - INFO - Last liked: 2025-07-25 15:11:40
+2025-07-25 14:39:58,937 - INFO - Starting post liking batch (max 25 likes)
+2025-07-25 14:39:58,937 - INFO - Validating LinkedIn credentials...
+2025-07-25 14:40:04,393 - INFO - LinkedIn validation successful. User ID: BWhT9OIznT
+2025-07-25 14:40:04,397 - INFO - Found 58 posts ready for liking
+2025-07-25 14:40:04,397 - INFO - Processing 25 posts
+2025-07-25 14:40:04,397 - INFO - Processing post 1/25
+2025-07-25 14:40:04,397 - INFO - Liking post 9667 by Mark Sones
+2025-07-25 14:40:04,397 - INFO - Attempting to like post: urn:li:activity:7354541239922315264
+2025-07-25 14:40:04,665 - INFO - Successfully liked post. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 14:40:04,672 - INFO - Marked post 9667 as liked
+2025-07-25 14:40:04,678 - INFO - Updated profile 8663 to status 'week2_commenting'. Liked post 9667
+2025-07-25 14:40:04,679 - INFO - ✅ Successfully liked post 9667 by Mark Sones
+2025-07-25 14:40:04,679 - INFO - Human-like delay: 17s...
+2025-07-25 14:40:21,679 - INFO - Processing post 2/25
+2025-07-25 14:40:21,679 - INFO - Liking post 9668 by Mark Sones
+2025-07-25 14:40:21,679 - INFO - Attempting to like post: urn:li:activity:7354318704827912192
+2025-07-25 14:40:21,927 - WARNING - URN mismatch for urn:li:activity:7354318704827912192. Attempting to extract correct URN.
+2025-07-25 14:40:21,927 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7352904074909962241
+2025-07-25 14:40:22,188 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 14:40:22,195 - INFO - Marked post 9668 as liked
+2025-07-25 14:40:22,201 - INFO - Updated profile 8663 to status 'week2_commenting'. Liked post 9668
+2025-07-25 14:40:22,201 - INFO - ✅ Successfully liked post 9668 by Mark Sones
+2025-07-25 14:40:22,201 - INFO - Human-like delay: 6s...
+2025-07-25 14:40:28,202 - INFO - Processing post 3/25
+2025-07-25 14:40:28,202 - INFO - Liking post 9669 by Mark Sones
+2025-07-25 14:40:28,205 - INFO - Attempting to like post: urn:li:activity:7354316767206236160
+2025-07-25 14:40:28,438 - WARNING - URN mismatch for urn:li:activity:7354316767206236160. Attempting to extract correct URN.
+2025-07-25 14:40:28,438 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7354180207777325056
+2025-07-25 14:40:28,931 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 14:40:28,957 - INFO - Marked post 9669 as liked
+2025-07-25 14:40:28,962 - INFO - Updated profile 8663 to status 'week2_commenting'. Liked post 9669
+2025-07-25 14:40:28,962 - INFO - ✅ Successfully liked post 9669 by Mark Sones
+2025-07-25 14:40:28,962 - INFO - Human-like delay: 11s...
+2025-07-25 14:40:39,962 - INFO - Processing post 4/25
+2025-07-25 14:40:39,962 - INFO - Liking post 10091 by Michael Donovan
+2025-07-25 14:40:39,963 - INFO - Attempting to like post: urn:li:activity:7354297070322651136
+2025-07-25 14:40:40,307 - INFO - Successfully liked post. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 14:40:40,313 - INFO - Marked post 10091 as liked
+2025-07-25 14:40:40,318 - INFO - Updated profile 783 to status 'week2_commenting'. Liked post 10091
+2025-07-25 14:40:40,318 - INFO - ✅ Successfully liked post 10091 by Michael Donovan
+2025-07-25 14:40:40,318 - INFO - Human-like delay: 24s...
+2025-07-25 14:41:04,319 - INFO - Processing post 5/25
+2025-07-25 14:41:04,319 - INFO - Liking post 9670 by Mark Sones
+2025-07-25 14:41:04,319 - INFO - Attempting to like post: urn:li:activity:7354211839745871874
+2025-07-25 14:41:04,568 - WARNING - URN mismatch for urn:li:activity:7354211839745871874. Attempting to extract correct URN.
+2025-07-25 14:41:04,568 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7354148418346262528
+2025-07-25 14:41:04,833 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 14:41:04,841 - INFO - Marked post 9670 as liked
+2025-07-25 14:41:04,845 - INFO - Updated profile 8663 to status 'week2_commenting'. Liked post 9670
+2025-07-25 14:41:04,845 - INFO - ✅ Successfully liked post 9670 by Mark Sones
+2025-07-25 14:41:04,845 - INFO - Human-like delay: 9s...
+2025-07-25 14:41:13,846 - INFO - Processing post 6/25
+2025-07-25 14:41:13,846 - INFO - Liking post 9671 by Mark Sones
+2025-07-25 14:41:13,846 - INFO - Attempting to like post: urn:li:activity:7354124897993805824
+2025-07-25 14:41:14,182 - WARNING - URN mismatch for urn:li:activity:7354124897993805824. Attempting to extract correct URN.
+2025-07-25 14:41:14,182 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7354104615748935681
+2025-07-25 14:41:14,526 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 14:41:14,533 - INFO - Marked post 9671 as liked
+2025-07-25 14:41:14,540 - INFO - Updated profile 8663 to status 'week2_commenting'. Liked post 9671
+2025-07-25 14:41:14,540 - INFO - ✅ Successfully liked post 9671 by Mark Sones
+2025-07-25 14:41:14,540 - INFO - Human-like delay: 6s...
+2025-07-25 14:41:20,540 - INFO - Processing post 7/25
+2025-07-25 14:41:20,540 - INFO - Liking post 9376 by Ben Hernandez
+2025-07-25 14:41:20,541 - INFO - Attempting to like post: urn:li:activity:7353955405967900672
+2025-07-25 14:41:20,778 - WARNING - URN mismatch for urn:li:activity:7353955405967900672. Attempting to extract correct URN.
+2025-07-25 14:41:20,778 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7349105145487515649
+2025-07-25 14:41:21,066 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 14:41:21,091 - INFO - Marked post 9376 as liked
+2025-07-25 14:41:21,097 - INFO - Updated profile 8635 to status 'week2_commenting'. Liked post 9376
+2025-07-25 14:41:21,098 - INFO - ✅ Successfully liked post 9376 by Ben Hernandez
+2025-07-25 14:41:21,098 - INFO - Human-like delay: 11s...
+2025-07-25 14:41:32,098 - INFO - Processing post 8/25
+2025-07-25 14:41:32,098 - INFO - Liking post 9762 by Paul May
+2025-07-25 14:41:32,098 - INFO - Attempting to like post: urn:li:activity:7353854199324971008
+2025-07-25 14:41:32,352 - WARNING - URN mismatch for urn:li:activity:7353854199324971008. Attempting to extract correct URN.
+2025-07-25 14:41:32,353 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7353826351071518720
+2025-07-25 14:41:32,627 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 14:41:32,634 - INFO - Marked post 9762 as liked
+2025-07-25 14:41:32,640 - INFO - Updated profile 8666 to status 'week2_commenting'. Liked post 9762
+2025-07-25 14:41:32,640 - INFO - ✅ Successfully liked post 9762 by Paul May
+2025-07-25 14:41:32,640 - INFO - Human-like delay: 13s...
+2025-07-25 14:41:45,641 - INFO - Processing post 9/25
+2025-07-25 14:41:45,641 - INFO - Liking post 9902 by Ori Snir
+2025-07-25 14:41:45,641 - INFO - Attempting to like post: urn:li:activity:7353832014845747200
+2025-07-25 14:41:45,889 - WARNING - URN mismatch for urn:li:activity:7353832014845747200. Attempting to extract correct URN.
+2025-07-25 14:41:45,889 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7353832014300495872
+2025-07-25 14:41:46,154 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 14:41:46,179 - INFO - Marked post 9902 as liked
+2025-07-25 14:41:46,183 - INFO - Updated profile 699 to status 'week2_commenting'. Liked post 9902
+2025-07-25 14:41:46,183 - INFO - ✅ Successfully liked post 9902 by Ori Snir
+2025-07-25 14:41:46,183 - INFO - Human-like delay: 23s...
+2025-07-25 14:42:09,183 - INFO - Processing post 10/25
+2025-07-25 14:42:09,183 - INFO - Liking post 9377 by Ben Hernandez
+2025-07-25 14:42:09,183 - INFO - Attempting to like post: urn:li:activity:7353787162766561281
+2025-07-25 14:42:09,456 - INFO - Successfully liked post. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 14:42:09,481 - INFO - Marked post 9377 as liked
+2025-07-25 14:42:09,488 - INFO - Updated profile 8635 to status 'week2_commenting'. Liked post 9377
+2025-07-25 14:42:09,488 - INFO - ✅ Successfully liked post 9377 by Ben Hernandez
+2025-07-25 14:42:09,488 - INFO - Human-like delay: 12s...
+2025-07-25 14:42:21,488 - INFO - Processing post 11/25
+2025-07-25 14:42:21,488 - INFO - Liking post 9672 by Mark Sones
+2025-07-25 14:42:21,489 - INFO - Attempting to like post: urn:li:activity:7353783702763565056
+2025-07-25 14:42:21,740 - WARNING - URN mismatch for urn:li:activity:7353783702763565056. Attempting to extract correct URN.
+2025-07-25 14:42:21,740 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7351782366425591808
+2025-07-25 14:42:22,047 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 14:42:22,054 - INFO - Marked post 9672 as liked
+2025-07-25 14:42:22,060 - INFO - Updated profile 8663 to status 'week2_commenting'. Liked post 9672
+2025-07-25 14:42:22,060 - INFO - ✅ Successfully liked post 9672 by Mark Sones
+2025-07-25 14:42:22,060 - INFO - Human-like delay: 21s...
+2025-07-25 14:42:43,060 - INFO - Processing post 12/25
+2025-07-25 14:42:43,060 - INFO - Liking post 9673 by Mark Sones
+2025-07-25 14:42:43,061 - INFO - Attempting to like post: urn:li:activity:7353774792602238976
+2025-07-25 14:42:43,315 - WARNING - URN mismatch for urn:li:activity:7353774792602238976. Attempting to extract correct URN.
+2025-07-25 14:42:43,315 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7353747096803450882
+2025-07-25 14:42:43,604 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 14:42:43,611 - INFO - Marked post 9673 as liked
+2025-07-25 14:42:43,617 - INFO - Updated profile 8663 to status 'week2_commenting'. Liked post 9673
+2025-07-25 14:42:43,617 - INFO - ✅ Successfully liked post 9673 by Mark Sones
+2025-07-25 14:42:43,617 - INFO - Human-like delay: 15s...
+2025-07-25 14:42:58,617 - INFO - Processing post 13/25
+2025-07-25 14:42:58,618 - INFO - Liking post 10092 by Michael Donovan
+2025-07-25 14:42:58,618 - INFO - Attempting to like post: urn:li:activity:7353639154095697923
+2025-07-25 14:42:58,917 - INFO - Successfully liked post. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 14:42:58,924 - INFO - Marked post 10092 as liked
+2025-07-25 14:42:58,930 - INFO - Updated profile 783 to status 'week2_commenting'. Liked post 10092
+2025-07-25 14:42:58,930 - INFO - ✅ Successfully liked post 10092 by Michael Donovan
+2025-07-25 14:42:58,930 - INFO - Human-like delay: 8s...
+2025-07-25 14:43:06,931 - INFO - Processing post 14/25
+2025-07-25 14:43:06,931 - INFO - Liking post 9378 by Ben Hernandez
+2025-07-25 14:43:06,931 - INFO - Attempting to like post: urn:li:activity:7353487983464910850
+2025-07-25 14:43:07,399 - WARNING - URN mismatch for urn:li:activity:7353487983464910850. Attempting to extract correct URN.
+2025-07-25 14:43:07,399 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7353366207657365504
+2025-07-25 14:43:07,753 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 14:43:07,761 - INFO - Marked post 9378 as liked
+2025-07-25 14:43:07,769 - INFO - Updated profile 8635 to status 'week2_commenting'. Liked post 9378
+2025-07-25 14:43:07,769 - INFO - ✅ Successfully liked post 9378 by Ben Hernandez
+2025-07-25 14:43:07,769 - INFO - Human-like delay: 8s...
+2025-07-25 14:43:15,770 - INFO - Processing post 15/25
+2025-07-25 14:43:15,770 - INFO - Liking post 9763 by Paul May
+2025-07-25 14:43:15,770 - INFO - Attempting to like post: urn:li:activity:7353468052400750593
+2025-07-25 14:43:16,056 - INFO - Successfully liked post. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 14:43:16,063 - INFO - Marked post 9763 as liked
+2025-07-25 14:43:16,069 - INFO - Updated profile 8666 to status 'week2_commenting'. Liked post 9763
+2025-07-25 14:43:16,069 - INFO - ✅ Successfully liked post 9763 by Paul May
+2025-07-25 14:43:16,069 - INFO - Human-like delay: 6s...
+2025-07-25 14:43:22,070 - INFO - Processing post 16/25
+2025-07-25 14:43:22,070 - INFO - Liking post 9674 by Mark Sones
+2025-07-25 14:43:22,070 - INFO - Attempting to like post: urn:li:activity:7353442120524800004
+2025-07-25 14:43:22,362 - INFO - Successfully liked post. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 14:43:22,387 - INFO - Marked post 9674 as liked
+2025-07-25 14:43:22,394 - INFO - Updated profile 8663 to status 'week2_commenting'. Liked post 9674
+2025-07-25 14:43:22,394 - INFO - ✅ Successfully liked post 9674 by Mark Sones
+2025-07-25 14:43:22,394 - INFO - Human-like delay: 25s...
+2025-07-25 14:43:47,395 - INFO - Processing post 17/25
+2025-07-25 14:43:47,395 - INFO - Liking post 9675 by Mark Sones
+2025-07-25 14:43:47,395 - INFO - Attempting to like post: urn:li:activity:7353438140981727234
+2025-07-25 14:43:47,757 - INFO - Successfully liked post. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 14:43:47,782 - INFO - Marked post 9675 as liked
+2025-07-25 14:43:47,789 - INFO - Updated profile 8663 to status 'week2_commenting'. Liked post 9675
+2025-07-25 14:43:47,789 - INFO - ✅ Successfully liked post 9675 by Mark Sones
+2025-07-25 14:43:47,789 - INFO - Human-like delay: 18s...
+2025-07-25 14:44:05,789 - INFO - Processing post 18/25
+2025-07-25 14:44:05,789 - INFO - Liking post 9326 by Andy Keil
+2025-07-25 14:44:05,789 - INFO - Attempting to like post: urn:li:activity:7353421501141819394
+2025-07-25 14:44:06,035 - WARNING - URN mismatch for urn:li:activity:7353421501141819394. Attempting to extract correct URN.
+2025-07-25 14:44:06,035 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7353421499296325635
+2025-07-25 14:44:06,318 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 14:44:06,324 - INFO - Marked post 9326 as liked
+2025-07-25 14:44:06,333 - INFO - Updated profile 8634 to status 'week2_commenting'. Liked post 9326
+2025-07-25 14:44:06,333 - INFO - ✅ Successfully liked post 9326 by Andy Keil
+2025-07-25 14:44:06,333 - INFO - Human-like delay: 13s...
+2025-07-25 14:44:19,334 - INFO - Processing post 19/25
+2025-07-25 14:44:19,334 - INFO - Liking post 9676 by Mark Sones
+2025-07-25 14:44:19,334 - INFO - Attempting to like post: urn:li:activity:7353230460312821760
+2025-07-25 14:44:19,579 - WARNING - URN mismatch for urn:li:activity:7353230460312821760. Attempting to extract correct URN.
+2025-07-25 14:44:19,579 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7353194571108864000
+2025-07-25 14:44:19,847 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 14:44:19,855 - INFO - Marked post 9676 as liked
+2025-07-25 14:44:19,860 - INFO - Updated profile 8663 to status 'week2_commenting'. Liked post 9676
+2025-07-25 14:44:19,861 - INFO - ✅ Successfully liked post 9676 by Mark Sones
+2025-07-25 14:44:19,861 - INFO - Human-like delay: 13s...
+2025-07-25 14:44:32,861 - INFO - Processing post 20/25
+2025-07-25 14:44:32,861 - INFO - Liking post 10093 by Michael Donovan
+2025-07-25 14:44:32,862 - INFO - Attempting to like post: urn:li:activity:7353192465023057921
+2025-07-25 14:44:33,100 - WARNING - URN mismatch for urn:li:activity:7353192465023057921. Attempting to extract correct URN.
+2025-07-25 14:44:33,100 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7353121059748958210
+2025-07-25 14:44:33,366 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 14:44:33,375 - INFO - Marked post 10093 as liked
+2025-07-25 14:44:33,380 - INFO - Updated profile 783 to status 'week2_commenting'. Liked post 10093
+2025-07-25 14:44:33,380 - INFO - ✅ Successfully liked post 10093 by Michael Donovan
+2025-07-25 14:44:33,381 - INFO - Human-like delay: 12s...
+2025-07-25 14:44:45,381 - INFO - Processing post 21/25
+2025-07-25 14:44:45,381 - INFO - Liking post 9996 by Eldho Kuriakose
+2025-07-25 14:44:45,381 - INFO - Attempting to like post: urn:li:activity:7353071207862226946
+2025-07-25 14:44:45,661 - INFO - Successfully liked post. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 14:44:45,667 - INFO - Marked post 9996 as liked
+2025-07-25 14:44:45,674 - INFO - Updated profile 747 to status 'week2_commenting'. Liked post 9996
+2025-07-25 14:44:45,674 - INFO - ✅ Successfully liked post 9996 by Eldho Kuriakose
+2025-07-25 14:44:45,674 - INFO - Human-like delay: 21s...
+2025-07-25 14:45:06,675 - INFO - Processing post 22/25
+2025-07-25 14:45:06,675 - INFO - Liking post 9852 by Saswat Panigrahi
+2025-07-25 14:45:06,675 - INFO - Attempting to like post: urn:li:activity:7353058053983801344
+2025-07-25 14:45:06,937 - WARNING - URN mismatch for urn:li:activity:7353058053983801344. Attempting to extract correct URN.
+2025-07-25 14:45:06,937 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7352032573755179008
+2025-07-25 14:45:07,385 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 14:45:07,413 - INFO - Marked post 9852 as liked
+2025-07-25 14:45:07,418 - INFO - Updated profile 692 to status 'week2_commenting'. Liked post 9852
+2025-07-25 14:45:07,418 - INFO - ✅ Successfully liked post 9852 by Saswat Panigrahi
+2025-07-25 14:45:07,418 - INFO - Human-like delay: 21s...
+2025-07-25 14:45:28,418 - INFO - Processing post 23/25
+2025-07-25 14:45:28,419 - INFO - Liking post 9853 by Saswat Panigrahi
+2025-07-25 14:45:28,419 - INFO - Attempting to like post: urn:li:activity:7352939226704867331
+2025-07-25 14:45:28,651 - WARNING - URN mismatch for urn:li:activity:7352939226704867331. Attempting to extract correct URN.
+2025-07-25 14:45:28,651 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7352925667941928961
+2025-07-25 14:45:28,922 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 14:45:28,931 - INFO - Marked post 9853 as liked
+2025-07-25 14:45:28,935 - INFO - Updated profile 692 to status 'week2_commenting'. Liked post 9853
+2025-07-25 14:45:28,935 - INFO - ✅ Successfully liked post 9853 by Saswat Panigrahi
+2025-07-25 14:45:28,935 - INFO - Human-like delay: 16s...
+2025-07-25 14:45:44,936 - INFO - Processing post 24/25
+2025-07-25 14:45:44,936 - INFO - Liking post 10094 by Michael Donovan
+2025-07-25 14:45:44,936 - INFO - Attempting to like post: urn:li:activity:7352414688934055937
+2025-07-25 14:45:45,270 - WARNING - URN mismatch for urn:li:activity:7352414688934055937. Attempting to extract correct URN.
+2025-07-25 14:45:45,270 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:ugcPost:\d+)': urn:li:ugcPost:7352112273055760385
+2025-07-25 14:45:45,534 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 14:45:45,541 - INFO - Marked post 10094 as liked
+2025-07-25 14:45:45,548 - INFO - Updated profile 783 to status 'week2_commenting'. Liked post 10094
+2025-07-25 14:45:45,548 - INFO - ✅ Successfully liked post 10094 by Michael Donovan
+2025-07-25 14:45:45,548 - INFO - Human-like delay: 15s...
+2025-07-25 14:46:00,548 - INFO - Processing post 25/25
+2025-07-25 14:46:00,549 - INFO - Liking post 9677 by Mark Sones
+2025-07-25 14:46:00,549 - INFO - Attempting to like post: urn:li:activity:7352376827258003456
+2025-07-25 14:46:00,791 - WARNING - URN mismatch for urn:li:activity:7352376827258003456. Attempting to extract correct URN.
+2025-07-25 14:46:00,792 - INFO - Found correct URN using pattern 'actual threadUrn: (urn:li:activity:\d+)': urn:li:activity:7352371864146530304
+2025-07-25 14:46:01,078 - INFO - Retry successful. Like ID: urn:li:person:BWhT9OIznT
+2025-07-25 14:46:01,086 - INFO - Marked post 9677 as liked
+2025-07-25 14:46:01,091 - INFO - Updated profile 8663 to status 'week2_commenting'. Liked post 9677
+2025-07-25 14:46:01,091 - INFO - ✅ Successfully liked post 9677 by Mark Sones
+2025-07-25 14:46:01,091 - INFO - Batch liking completed: 25 likes, 25 profiles advanced

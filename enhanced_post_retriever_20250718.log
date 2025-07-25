@@ -1,0 +1,48 @@
+2025-07-18 12:24:48,532 - EnhancedPostRetriever_138827468265792 - INFO - validate_table_schema:259 - Added column has_media to posts
+2025-07-18 12:24:48,535 - EnhancedPostRetriever_138827468265792 - INFO - validate_table_schema:259 - Added column media_processed to posts
+2025-07-18 12:24:48,536 - EnhancedPostRetriever_138827468265792 - INFO - setup_database:322 - Updating posts table to allow NULL text values
+2025-07-18 12:24:48,536 - EnhancedPostRetriever_138827468265792 - WARNING - setup_database:329 - Could not update text constraints: NOT NULL constraint failed: posts.text
+2025-07-18 12:24:48,553 - EnhancedPostRetriever_138827468265792 - INFO - setup_database:346 - Database setup completed successfully
+2025-07-18 12:24:48,559 - EnhancedPostRetriever_138827468265792 - INFO - run_scraping_batch:1218 - Starting scraping batch for 10 profiles
+2025-07-18 12:24:48,559 - EnhancedPostRetriever_138827468265792 - INFO - run_scraping_batch:1225 - Scraping profile: Lion Sinclair (ID: 1) [1/10]
+2025-07-18 12:24:48,559 - EnhancedPostRetriever_138827468265792 - INFO - fetch_linkedin_posts:517 - Fetching posts for liorsinclair
+2025-07-18 12:24:49,418 - EnhancedPostRetriever_138827468265792 - WARNING - fetch_linkedin_posts:544 - API response indicates failure for liorsinclair: As previously announced, our services have been suspended. Please get in touch with us for more information and the refund process before canceling your subscription!
+2025-07-18 12:24:49,418 - EnhancedPostRetriever_138827468265792 - INFO - run_scraping_batch:1242 - No posts found for Lion Sinclair
+2025-07-18 12:24:51,418 - EnhancedPostRetriever_138827468265792 - INFO - run_scraping_batch:1225 - Scraping profile: Linas beliunas (ID: 2) [2/10]
+2025-07-18 12:24:51,418 - EnhancedPostRetriever_138827468265792 - INFO - fetch_linkedin_posts:517 - Fetching posts for linasbeliunas
+2025-07-18 12:24:51,701 - EnhancedPostRetriever_138827468265792 - WARNING - fetch_linkedin_posts:544 - API response indicates failure for linasbeliunas: As previously announced, our services have been suspended. Please get in touch with us for more information and the refund process before canceling your subscription!
+2025-07-18 12:24:51,701 - EnhancedPostRetriever_138827468265792 - INFO - run_scraping_batch:1242 - No posts found for Linas beliunas
+2025-07-18 12:24:53,701 - EnhancedPostRetriever_138827468265792 - INFO - run_scraping_batch:1225 - Scraping profile: Steve Nouri (ID: 3) [3/10]
+2025-07-18 12:24:53,701 - EnhancedPostRetriever_138827468265792 - INFO - fetch_linkedin_posts:517 - Fetching posts for stevenouri
+2025-07-18 12:24:53,998 - EnhancedPostRetriever_138827468265792 - WARNING - fetch_linkedin_posts:544 - API response indicates failure for stevenouri: As previously announced, our services have been suspended. Please get in touch with us for more information and the refund process before canceling your subscription!
+2025-07-18 12:24:53,998 - EnhancedPostRetriever_138827468265792 - INFO - run_scraping_batch:1242 - No posts found for Steve Nouri
+2025-07-18 12:24:55,999 - EnhancedPostRetriever_138827468265792 - INFO - run_scraping_batch:1225 - Scraping profile: Akash Gupta (ID: 4) [4/10]
+2025-07-18 12:24:55,999 - EnhancedPostRetriever_138827468265792 - INFO - fetch_linkedin_posts:517 - Fetching posts for aagupta
+2025-07-18 12:24:56,276 - EnhancedPostRetriever_138827468265792 - WARNING - fetch_linkedin_posts:544 - API response indicates failure for aagupta: As previously announced, our services have been suspended. Please get in touch with us for more information and the refund process before canceling your subscription!
+2025-07-18 12:24:56,276 - EnhancedPostRetriever_138827468265792 - INFO - run_scraping_batch:1242 - No posts found for Akash Gupta
+2025-07-18 12:24:58,277 - EnhancedPostRetriever_138827468265792 - INFO - run_scraping_batch:1225 - Scraping profile: Ellie Bennett (ID: 5) [5/10]
+2025-07-18 12:24:58,277 - EnhancedPostRetriever_138827468265792 - INFO - fetch_linkedin_posts:517 - Fetching posts for ellie-bennett
+2025-07-18 12:24:58,561 - EnhancedPostRetriever_138827468265792 - WARNING - fetch_linkedin_posts:544 - API response indicates failure for ellie-bennett: As previously announced, our services have been suspended. Please get in touch with us for more information and the refund process before canceling your subscription!
+2025-07-18 12:24:58,561 - EnhancedPostRetriever_138827468265792 - INFO - run_scraping_batch:1242 - No posts found for Ellie Bennett
+2025-07-18 12:25:00,562 - EnhancedPostRetriever_138827468265792 - INFO - run_scraping_batch:1225 - Scraping profile: Sachin Ranchod (ID: 6) [6/10]
+2025-07-18 12:25:00,562 - EnhancedPostRetriever_138827468265792 - INFO - fetch_linkedin_posts:517 - Fetching posts for sachinranchod
+2025-07-18 12:25:00,882 - EnhancedPostRetriever_138827468265792 - WARNING - fetch_linkedin_posts:544 - API response indicates failure for sachinranchod: As previously announced, our services have been suspended. Please get in touch with us for more information and the refund process before canceling your subscription!
+2025-07-18 12:25:00,882 - EnhancedPostRetriever_138827468265792 - INFO - run_scraping_batch:1242 - No posts found for Sachin Ranchod
+2025-07-18 12:25:02,883 - EnhancedPostRetriever_138827468265792 - INFO - run_scraping_batch:1225 - Scraping profile: Sudhir Prasad (ID: 55) [7/10]
+2025-07-18 12:25:02,883 - EnhancedPostRetriever_138827468265792 - INFO - fetch_linkedin_posts:517 - Fetching posts for sudhirprasad
+2025-07-18 12:25:03,162 - EnhancedPostRetriever_138827468265792 - WARNING - fetch_linkedin_posts:544 - API response indicates failure for sudhirprasad: As previously announced, our services have been suspended. Please get in touch with us for more information and the refund process before canceling your subscription!
+2025-07-18 12:25:03,162 - EnhancedPostRetriever_138827468265792 - INFO - run_scraping_batch:1242 - No posts found for Sudhir Prasad
+2025-07-18 12:25:05,163 - EnhancedPostRetriever_138827468265792 - INFO - run_scraping_batch:1225 - Scraping profile: Todd Tauber (ID: 56) [8/10]
+2025-07-18 12:25:05,163 - EnhancedPostRetriever_138827468265792 - INFO - fetch_linkedin_posts:517 - Fetching posts for ttauber
+2025-07-18 12:25:05,483 - EnhancedPostRetriever_138827468265792 - WARNING - fetch_linkedin_posts:544 - API response indicates failure for ttauber: As previously announced, our services have been suspended. Please get in touch with us for more information and the refund process before canceling your subscription!
+2025-07-18 12:25:05,483 - EnhancedPostRetriever_138827468265792 - INFO - run_scraping_batch:1242 - No posts found for Todd Tauber
+2025-07-18 12:25:07,484 - EnhancedPostRetriever_138827468265792 - INFO - run_scraping_batch:1225 - Scraping profile: Sarah Dulski (ID: 57) [9/10]
+2025-07-18 12:25:07,484 - EnhancedPostRetriever_138827468265792 - INFO - fetch_linkedin_posts:517 - Fetching posts for sarahdulski
+2025-07-18 12:25:07,774 - EnhancedPostRetriever_138827468265792 - WARNING - fetch_linkedin_posts:544 - API response indicates failure for sarahdulski: As previously announced, our services have been suspended. Please get in touch with us for more information and the refund process before canceling your subscription!
+2025-07-18 12:25:07,775 - EnhancedPostRetriever_138827468265792 - INFO - run_scraping_batch:1242 - No posts found for Sarah Dulski
+2025-07-18 12:25:09,776 - EnhancedPostRetriever_138827468265792 - INFO - run_scraping_batch:1225 - Scraping profile: Shawnee Malesich (ID: 370) [10/10]
+2025-07-18 12:25:09,776 - EnhancedPostRetriever_138827468265792 - INFO - fetch_linkedin_posts:517 - Fetching posts for shawneemrecruitment
+2025-07-18 12:25:10,048 - EnhancedPostRetriever_138827468265792 - WARNING - fetch_linkedin_posts:544 - API response indicates failure for shawneemrecruitment: As previously announced, our services have been suspended. Please get in touch with us for more information and the refund process before canceling your subscription!
+2025-07-18 12:25:10,048 - EnhancedPostRetriever_138827468265792 - INFO - run_scraping_batch:1242 - No posts found for Shawnee Malesich
+2025-07-18 12:25:12,048 - EnhancedPostRetriever_138827468265792 - INFO - run_scraping_batch:1274 - Scraping batch completed in 0:00:23.490479
+2025-07-18 12:25:12,048 - EnhancedPostRetriever_138827468265792 - INFO - run_scraping_batch:1275 - Final stats: {'profiles_processed': 10, 'posts_saved': 0, 'media_processed': 0, 'errors': [], 'start_time': datetime.datetime(2025, 7, 18, 12, 24, 48, 558275), 'end_time': datetime.datetime(2025, 7, 18, 12, 25, 12, 48754)}

@@ -1,0 +1,36 @@
+# Core packages
+python-dotenv==1.1.1
+requests==2.32.4
+pandas==2.3.1
+
+# AI/ML packages
+openai==1.96.1
+google-generativeai==0.8.5
+tavily-python==0.7.9
+
+# LangChain/LangGraph
+langchain==0.3.26
+langchain-core==0.3.69
+langchain-text-splitters==0.3.8
+langgraph==0.5.3
+langgraph-checkpoint==2.1.1
+langgraph-prebuilt==0.5.2
+langgraph-sdk==0.1.73
+langsmith==0.4.6
+
+# Database
+SQLAlchemy==2.0.41
+
+# Scheduling
+schedule==1.2.2
+
+# Web scraping/parsing
+beautifulsoup4==4.13.4
+lxml==6.0.0
+
+# HTTP clients
+httpx==0.28.1
+
+# Utilities
+pydantic==2.11.7
+typing_extensions==4.14.1
