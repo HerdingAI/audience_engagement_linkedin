@@ -205,3 +205,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Ignore custom endpoint directory
+Code_W_Other_API_Endpoints/
+
+# Ignore success report file
+Complete_System_Success_Report.md
