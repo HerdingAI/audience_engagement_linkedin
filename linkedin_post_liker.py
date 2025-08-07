@@ -32,13 +32,24 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Database and LinkedIn API configuration
-DB_PATH = "linkedin_project_db.sqlite3"
+# Load environment variables
+from dotenv import load_dotenv
+load_dotenv()
 
-# LinkedIn API credentials
-CLIENT_ID = "786rwpg272olkl"
-CLIENT_SECRET = "WPL_AP1.y2jmsNflI7Pc12SX.qsruIQ=="
-ACCESS_TOKEN = "AQWThaYqZiuECBVR1YvnofTYp21b_7hY37FwczmPYi_P7AI8o8-9-m0V15w943j5znGhRIRjmc4V_skIh8K6QMQwQ89SD5mNIZp0PHcwpSWz_E5VaUGmgLyBq-P5DknWFBo3uu8LPaHf3PegPtJjOHqeSDD_gqjkOcq3Q368iZeZhdZYpuX8jXRsFGOSkmhvGiYk3PNvfWnE3FfyL7gVchdv_AkISvIhwqtZ16uLH-GJUfiW4K3sJgm5ei7XOGbLav3MIg8if43mzO4DmIrffyrXrZ5Ummv4Qm82UeHqjww99AJvjpwiMvOqoIHI2x3Nq5GgdfN0sVqrGzSXC3ysmUW1D0FO-A"
-LINKEDIN_PROFILE_ID = "urn:li:person:BWhT9OIznT"
+# Database configuration
+DB_PATH = os.getenv("DB_PATH", "linkedin_project_db.sqlite3")
+
+# LinkedIn API credentials from environment
+CLIENT_ID = os.getenv("LINKEDIN_CLIENT_ID")
+CLIENT_SECRET = os.getenv("LINKEDIN_CLIENT_SECRET")
+ACCESS_TOKEN = os.getenv("LINKEDIN_ACCESS_TOKEN")
+LINKEDIN_PROFILE_ID = os.getenv("LINKEDIN_PROFILE_ID")
+
+# Validate required environment variables
+required_vars = ["LINKEDIN_CLIENT_ID", "LINKEDIN_CLIENT_SECRET", "LINKEDIN_ACCESS_TOKEN", "LINKEDIN_PROFILE_ID"]
+missing_vars = [var for var in required_vars if not os.getenv(var)]
+if missing_vars:
+    raise ValueError(f"Missing required environment variables: {', '.join(missing_vars)}")
 
 class PostLiker:
     def __init__(self, db_path: str = DB_PATH):

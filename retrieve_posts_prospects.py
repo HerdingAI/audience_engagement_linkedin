@@ -29,9 +29,16 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+# Load environment variables
+from dotenv import load_dotenv
+load_dotenv()
+
 # Database and API configuration
-DB_PATH = "linkedin_project_db.sqlite3"
-API_KEY = "fb65b935a5msh9e0581a88e0d61fp16d490jsna3c556318665"  # RapidAPI key
+DB_PATH = os.getenv("DB_PATH", "linkedin_project_db.sqlite3")
+API_KEY = os.getenv("RAPIDAPI_KEY")  # RapidAPI key from environment
+
+if not API_KEY:
+    raise ValueError("RAPIDAPI_KEY environment variable is required")
 
 class PostScraper:
     def __init__(self, db_path: str = DB_PATH, api_key: str = API_KEY):
