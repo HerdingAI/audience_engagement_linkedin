@@ -76,7 +76,7 @@ graph TD
    - Analyzes their content history and engagement patterns
 
 3. **Multi-Model AI Synthesis**
-   - **OpenAI GPT-4**: Generates human-like, contextually appropriate responses
+   - **OpenAI GPT-4o**: Generates human-like, contextually appropriate responses
    - **Google Gemini**: Provides alternative perspectives and fact-checking
    - **Tavily Search**: Adds current industry insights and trending topics
 
@@ -156,9 +156,15 @@ to accelerate adoption?"
 Before implementation, ensure you have:
 
 - **LinkedIn Premium or Sales Navigator** (recommended for enhanced targeting)
+- **LinkedIn Developer API Access**: You'll need to create your own LinkedIn Developer account and obtain:
+  - LinkedIn API Client ID
+  - LinkedIn API Client Secret
+  - Proper OAuth 2.0 setup for LinkedIn API authentication
 - **API Access**: OpenAI, Google Gemini, and Tavily accounts
 - **Target Audience Definition**: Clear ICP (Ideal Customer Profile) and engagement strategy
 - **Brand Voice Guidelines**: Defined communication style and key messaging
+
+**Important Note**: This system requires your own LinkedIn Developer API credentials. You must register at [LinkedIn Developer Portal](https://developer.linkedin.com/) and obtain your own API keys. We do not provide or share LinkedIn API credentials.
 
 ### **Implementation Steps**
 
@@ -234,7 +240,7 @@ python analytics_dashboard.py --timeframe=7days
 
 | AI Provider | Function | Benefit |
 |-------------|----------|---------|
-| **OpenAI GPT-4** | Comment generation | Natural, human-like responses |
+| **OpenAI GPT-4o** | Comment generation | Natural, human-like responses |
 | **Google Gemini** | Content understanding | Enhanced context awareness |
 | **Tavily Search** | Industry insights | Current and relevant information |
 
@@ -268,8 +274,13 @@ python analytics_dashboard.py --timeframe=7days
 ## 📋 Getting Started
 
 ### **Prerequisites**
+
 - LinkedIn account (Premium recommended for enhanced features)
-- OpenAI API key for GPT-4 access
+- **LinkedIn Developer API Access**: Your own LinkedIn Developer credentials
+  - LinkedIn API Client ID and Client Secret
+  - OAuth 2.0 setup for LinkedIn API authentication
+  - Register at [LinkedIn Developer Portal](https://developer.linkedin.com/)
+- OpenAI API key for GPT-4o access
 - Google Gemini API key (optional, for enhanced analysis)
 - Tavily API key (optional, for real-time insights)
 - Python 3.10+ development environment
@@ -301,6 +312,11 @@ OPENAI_API_KEY=your_openai_key_here
 GEMINI_API_KEY=your_gemini_key_here  # Optional
 TAVILY_API_KEY=your_tavily_key_here  # Optional
 
+# Required LinkedIn Developer API Credentials
+LINKEDIN_CLIENT_ID=your_linkedin_app_client_id
+LINKEDIN_CLIENT_SECRET=your_linkedin_app_client_secret
+LINKEDIN_REDIRECT_URI=your_oauth_redirect_uri
+
 # Engagement Settings
 MAX_DAILY_ENGAGEMENTS=25
 COMMENT_TONE=professional
@@ -324,31 +340,39 @@ python analytics_dashboard.py  # If implemented
 
 ```text
 audience_engagement_linkedin/
-├── 🧠 ai_engine/                    # Multi-model AI processing core
-│   ├── content_analyzer/           # Post content understanding
-│   ├── comment_generator/          # Personalized response creation
-│   ├── quality_assurance/          # AI-powered quality validation
-│   └── sentiment_engine/           # Emotion and intent analysis
-├── 🎯 targeting/                    # Audience intelligence and segmentation
-│   ├── prospect_analyzer/          # Lead scoring and prioritization
-│   ├── relationship_mapper/        # Network growth tracking
-│   └── industry_classifier/        # Vertical-specific customization
-├── 📊 analytics/                    # Business intelligence and reporting
-│   ├── performance_tracker/        # ROI and engagement metrics
-│   ├── conversation_monitor/       # Response tracking and analysis
-│   └── competitive_intelligence/   # Market benchmarking
-├── 🔧 automation/                   # Execution and workflow management
-│   ├── scheduler/                  # Optimal timing algorithms
-│   ├── rate_limiter/              # LinkedIn compliance engine
-│   └── posting_engine/            # Content delivery system
-├── 🔒 security/                     # Enterprise security and compliance
-│   ├── data_protection/           # GDPR/CCPA compliance
-│   ├── audit_logging/             # Complete activity tracking
-│   └── content_moderation/        # Brand safety validation
-└── 📈 dashboard/                    # Executive reporting interface
-    ├── roi_calculator/            # Business impact measurement
-    ├── network_visualizer/        # Relationship mapping
-    └── strategy_optimizer/        # Performance recommendations
+├── 📄 Core Scripts
+│   ├── linkedin_commenter.py          # Main AI comment generation engine
+│   ├── linkedin_comment_poster.py     # Comment posting automation
+│   ├── linkedin_post_liker.py         # Post engagement automation
+│   ├── retrieve_posts_prospects.py    # Prospect post retrieval
+│   ├── retrieve_post_1stconnections.py # Network post analysis
+│   └── csv_profile_importer.py        # Contact data management
+├── �️ backend/                         # Core system architecture
+│   └── linkedin/
+│       ├── graph.py                   # LinkedIn automation logic
+│       └── __init__.py
+├── 🧪 tests/                           # Quality assurance
+│   ├── test_rate_limiting.py         # LinkedIn compliance testing
+│   └── __init__.py
+├── ⚙️ Configuration
+│   ├── .env.example                   # Environment template
+│   ├── requirements.txt               # Python dependencies
+│   ├── requirements-dev.txt           # Development dependencies
+│   ├── pyproject.toml                 # Project configuration
+│   └── setup.py                       # Package setup
+├── 🔧 Automation
+│   ├── linkedin_automation.sh         # Workflow orchestration
+│   └── .github/workflows/            # CI/CD pipeline
+├── 📊 Data & Logs
+│   ├── linkedin_project_db.sqlite3    # SQLite database
+│   ├── *.log                          # Activity logs
+│   └── *.csv                          # Data exports
+└── 📖 Documentation
+    ├── README.md                      # Project documentation
+    ├── CONTRIBUTING.md               # Contribution guidelines
+    ├── SECURITY.md                   # Security policies
+    ├── CHANGELOG.md                  # Version history
+    └── LICENSE                       # MIT license
 ```
 
 ## 💼 Business Value Proposition
@@ -407,20 +431,6 @@ audience_engagement_linkedin/
 - **User Control**: Users maintain full control over their LinkedIn account and activities
 - **Data Protection**: Follows best practices for data handling and storage
 
-## 📈 Performance Monitoring
-
-### **Built-in Analytics**
-- **Engagement Metrics**: Track comment performance and response rates
-- **Quality Scores**: Monitor AI-generated comment quality over time
-- **Activity Logs**: Complete history of automated actions
-- **Error Tracking**: Identify and resolve issues quickly
-
-### **Optimization Features**
-- **A/B Testing**: Compare different comment styles and approaches
-- **Learning Loop**: AI improves based on successful engagement patterns
-- **Custom Filters**: Tailor content selection to your industry and interests
-- **Performance Reports**: Regular summaries of engagement activities and results
-
 ## 🤝 Contributing
 
 We welcome contributions from the community! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on:
@@ -450,7 +460,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- **OpenAI** for providing the GPT-4 API that enables natural language generation
+- **OpenAI** for providing the GPT-4o API that enables natural language generation
 - **Google** for Gemini AI capabilities that enhance content understanding
 - **Tavily** for real-time search and industry intelligence integration
 - **The Open Source Community** for the excellent Python libraries that make this possible
@@ -469,7 +479,12 @@ OPENAI_API_KEY=your_openai_api_key_here
 GEMINI_API_KEY=your_google_gemini_api_key_here
 TAVILY_API_KEY=your_tavily_api_key_here
 
-# Required LinkedIn Credentials
+# Required LinkedIn Developer API Credentials
+LINKEDIN_CLIENT_ID=your_linkedin_app_client_id
+LINKEDIN_CLIENT_SECRET=your_linkedin_app_client_secret
+LINKEDIN_REDIRECT_URI=your_oauth_redirect_uri
+
+# Required LinkedIn Credentials (for automation)
 LINKEDIN_USERNAME=your_linkedin_email@example.com
 LINKEDIN_PASSWORD=your_linkedin_password
 
@@ -478,6 +493,8 @@ DB_PATH=./linkedin_project_db.sqlite3
 LOG_LEVEL=INFO
 RATE_LIMIT_DELAY=2
 ```
+
+**Important**: You must obtain your own LinkedIn Developer API credentials from the [LinkedIn Developer Portal](https://developer.linkedin.com/). We do not provide or share API credentials.
 
 ## 📋 Usage
 
