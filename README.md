@@ -399,10 +399,6 @@ We welcome contributions from the community! Please see our [Contributing Guidel
 - Development setup and testing procedures
 - Pull request process and review criteria
 
-## � License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## ⚠️ Important Considerations
 
 ### **Ethical Usage Guidelines**
@@ -520,10 +516,6 @@ All scripts generate detailed logs and CSV reports:
 - ❌ **Commercial Use**: Prohibited without explicit written permission
 - ❌ **Resale or Distribution**: Cannot be sold, licensed, or redistributed commercially
 - ❌ **Service Offerings**: Cannot be used to provide commercial services to third parties
-
-### **Commercial Licensing:**
-
-For commercial use, enterprise licensing, or service provider applications, please contact the project maintainers for a commercial license agreement.
 
 ### **Repository Protection:**
 
