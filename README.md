@@ -5,8 +5,6 @@
 [![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![AI-Powered](https://img.shields.io/badge/AI-Powered-brightgreen.svg)](https://openai.com)
 
-**Tra- Development setup and testing procedures
-- Pull request process and review criteria
 
 ## 🎯 Business Impact & Value
 
