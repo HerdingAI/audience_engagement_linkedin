@@ -1,21 +1,30 @@
-MIT License
+CUSTOM NON-COMMERCIAL LICENSE
 
-Copyright (c) 2025 Data-Carlos
+Copyright (c) 2025 HerdingAI
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+TERMS AND CONDITIONS:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. PERMITTED USES:
+   ✅ Personal Use: Free for individual, personal, non-commercial use
+   ✅ Learning & Research: Permitted for educational and research purposes  
+   ✅ Open Source Contributions: Welcome for improving the codebase
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. PROHIBITED USES:
+   ❌ Commercial Use: Prohibited without explicit written permission
+   ❌ Resale or Distribution: Cannot be sold, licensed, or redistributed commercially
+   ❌ Service Offerings: Cannot be used to provide commercial services to third parties
+
+3. DISCLAIMER:
+   This software is provided "AS-IS" without warranties of any kind. Users assume full 
+   responsibility for compliance with LinkedIn's Terms of Service and applicable laws.
+   The developers take no responsibility for misuse, account suspension, or any damages 
+   resulting from the use of this software.
+
+4. COMMERCIAL LICENSING:
+   For commercial use, enterprise licensing, or service provider applications, please 
+   contact the project maintainers for a commercial license agreement.
+
+5. ATTRIBUTION:
+   Any use of this software must include proper attribution to the original creators.
+
+By using this software, you agree to these terms and conditions.

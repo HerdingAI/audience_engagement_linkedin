@@ -1,11 +1,35 @@
 # LinkedIn Audience Engagement AI
 
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://python.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Custom Non-Commercial](https://img.shields.io/badge/License-Custom%20Non--Commercial-red.svg)](LICENSE)
 [![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![AI-Powered](https://img.shields.io/badge/AI-Powered-brightgreen.svg)](https://openai.com)
 
-**Transform your LinkedIn presence with AI-driven audience engagement that builds authentic relationships and drives business growth.**
+**Tra- Development setup and testing procedures
+- Pull request process and review criteria
+
+## 📄 License & Usage Restrictions
+
+**This project is licensed under a Custom Non-Commercial License.**
+
+### **License Terms:**
+
+- ✅ **Personal Use**: Free for individual, personal, non-commercial use
+- ✅ **Learning & Research**: Permitted for educational and research purposes
+- ✅ **Open Source Contributions**: Welcome for improving the codebase
+- ❌ **Commercial Use**: Prohibited without explicit written permission
+- ❌ **Resale or Distribution**: Cannot be sold, licensed, or redistributed commercially
+- ❌ **Service Offerings**: Cannot be used to provide commercial services to third parties
+
+### **Commercial Licensing:**
+
+For commercial use, enterprise licensing, or service provider applications, please contact the project maintainers for a commercial license agreement.
+
+### **Repository Protection:**
+
+While this repository is public for transparency and community learning, **commercial usage requires proper licensing**. Please respect these terms and contribute to the open-source community responsibly.
+
+## ⚠️ Important Considerationsour LinkedIn presence with AI-driven audience engagement that builds authentic relationships and drives business growth.**
 
 An enterprise-grade automation platform that leverages advanced AI to create personalized, contextually-aware comments that resonate with your target audience, increase engagement rates, and accelerate relationship building on LinkedIn.
 
@@ -200,36 +224,13 @@ source venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
-```
 
-#### **Step 2: Strategic Configuration**
-
-```bash
-# Configure your engagement strategy
+# Configure environment variables
 cp .env.example .env
-# Edit .env with your credentials and strategic parameters
+# Edit .env with your API keys and credentials (see Configuration section below)
 ```
 
-**Key Configuration Parameters:**
-
-```ini
-# AI Model Configuration
-OPENAI_API_KEY=your_openai_key_here
-GEMINI_API_KEY=your_gemini_key_here
-TAVILY_API_KEY=your_tavily_key_here
-
-# LinkedIn Strategy Settings
-MAX_DAILY_ENGAGEMENTS=50
-TARGET_RESPONSE_RATE=60
-ENGAGEMENT_TONE=professional  # options: casual, professional, thought-leader
-INDUSTRY_FOCUS=technology,fintech,healthcare
-
-# Business Objectives
-PRIMARY_GOAL=lead_generation  # options: brand_awareness, lead_generation, thought_leadership
-CONVERSION_TRACKING=enabled
-```
-
-#### **Step 3: Launch Your AI Engagement Campaign**
+#### **Step 2: Launch Your AI Engagement Campaign**
 
 ```bash
 # Start with audience analysis
@@ -320,25 +321,6 @@ cp .env.example .env
 # Edit .env with your API keys and preferences
 ```
 
-### **Basic Configuration**
-
-```ini
-# Required API Keys
-OPENAI_API_KEY=your_openai_key_here
-GEMINI_API_KEY=your_gemini_key_here  # Optional
-TAVILY_API_KEY=your_tavily_key_here  # Optional
-
-# Required LinkedIn Developer API Credentials
-LINKEDIN_CLIENT_ID=your_linkedin_app_client_id
-LINKEDIN_CLIENT_SECRET=your_linkedin_app_client_secret
-LINKEDIN_REDIRECT_URI=your_oauth_redirect_uri
-
-# Engagement Settings
-MAX_DAILY_ENGAGEMENTS=25
-COMMENT_TONE=professional
-RATE_LIMIT_DELAY=60  # seconds between actions
-```
-
 ### **Usage**
 
 ```bash
@@ -388,7 +370,7 @@ audience_engagement_linkedin/
     ├── CONTRIBUTING.md               # Contribution guidelines
     ├── SECURITY.md                   # Security policies
     ├── CHANGELOG.md                  # Version history
-    └── LICENSE                       # MIT license
+    └── LICENSE                       # Custom Non-Commercial license
 ```
 
 ## 💼 Business Value Proposition
@@ -396,40 +378,34 @@ audience_engagement_linkedin/
 ### **For Enterprise Organizations**
 
 **What This Platform Provides:**
+
 - Scalable LinkedIn engagement automation
 - AI-generated contextual comments
 - Compliance with LinkedIn's terms of service
 - Analytics and performance tracking
 
 **Potential ROI Considerations:**
+
 - Time savings: Reduce comment creation time from 3-5 minutes to under 1 minute
 - Increased reach: Enable consistent engagement with more prospects
 - Quality maintenance: AI ensures contextually relevant comments
 - Compliance: Built-in rate limiting and authentic engagement patterns
 
-### **Target Use Cases**
-
-**Sales Professionals:**
-- Warm up prospects before outreach calls
-- Maintain relationships with existing network
-- Build social proof and credibility
-- Generate conversation opportunities
-
-**Marketing Teams:**
-- Amplify content reach through strategic engagement
-- Build relationships with industry influencers
-- Monitor industry conversations and trends
-- Support thought leadership initiatives
-
-**Business Development:**
-- Identify partnership opportunities
-- Engage with potential clients and partners
-- Build industry relationships
-- Support account-based marketing efforts
-
 ## 🛡️ Compliance & Best Practices
 
+### **⚠️ IMPORTANT DISCLAIMER**
+
+**This system is provided "AS-IS" without warranties of any kind. Users assume full responsibility for:**
+
+- Compliance with LinkedIn's Terms of Service and applicable laws
+- Proper configuration and ethical usage of the automation tools
+- Any consequences resulting from the use of this software
+- Monitoring and controlling all automated activities
+
+**The developers take no responsibility for misuse, account suspension, or any damages resulting from the use of this software.**
+
 ### **LinkedIn Terms of Service**
+
 - **Rate Limiting**: Built-in delays and limits to respect LinkedIn's usage policies
 - **Authentic Engagement**: Focus on quality, relevant comments rather than volume
 - **Human Oversight**: Manual review capabilities for sensitive industries or topics
@@ -473,13 +449,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Regularly review and refine your engagement strategy based on response quality
 - Use manual oversight for sensitive industries or high-stakes relationships
 - Focus on building genuine relationships rather than just generating leads
-
-## 🙏 Acknowledgments
-
-- **OpenAI** for providing the GPT-4o API that enables natural language generation
-- **Google** for Gemini AI capabilities that enhance content understanding
-- **Tavily** for real-time search and industry intelligence integration
-- **The Open Source Community** for the excellent Python libraries that make this possible
 
 ---
 
