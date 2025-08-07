@@ -8,31 +8,6 @@
 **Tra- Development setup and testing procedures
 - Pull request process and review criteria
 
-## 📄 License & Usage Restrictions
-
-**This project is licensed under a Custom Non-Commercial License.**
-
-### **License Terms:**
-
-- ✅ **Personal Use**: Free for individual, personal, non-commercial use
-- ✅ **Learning & Research**: Permitted for educational and research purposes
-- ✅ **Open Source Contributions**: Welcome for improving the codebase
-- ❌ **Commercial Use**: Prohibited without explicit written permission
-- ❌ **Resale or Distribution**: Cannot be sold, licensed, or redistributed commercially
-- ❌ **Service Offerings**: Cannot be used to provide commercial services to third parties
-
-### **Commercial Licensing:**
-
-For commercial use, enterprise licensing, or service provider applications, please contact the project maintainers for a commercial license agreement.
-
-### **Repository Protection:**
-
-While this repository is public for transparency and community learning, **commercial usage requires proper licensing**. Please respect these terms and contribute to the open-source community responsibly.
-
-## ⚠️ Important Considerationsour LinkedIn presence with AI-driven audience engagement that builds authentic relationships and drives business growth.**
-
-An enterprise-grade automation platform that leverages advanced AI to create personalized, contextually-aware comments that resonate with your target audience, increase engagement rates, and accelerate relationship building on LinkedIn.
-
 ## 🎯 Business Impact & Value
 
 ### **Why LinkedIn Engagement Automation Matters**
@@ -541,6 +516,25 @@ All scripts generate detailed logs and CSV reports:
 - CSV exports include engagement metrics and audit trails
 - Reports are saved in the project root for analysis
 
----
+## 📄 License & Usage Restrictions
+
+**This project is licensed under a Custom Non-Commercial License.**
+
+### **License Terms:**
+
+- ✅ **Personal Use**: Free for individual, personal, non-commercial use
+- ✅ **Learning & Research**: Permitted for educational and research purposes
+- ✅ **Open Source Contributions**: Welcome for improving the codebase
+- ❌ **Commercial Use**: Prohibited without explicit written permission
+- ❌ **Resale or Distribution**: Cannot be sold, licensed, or redistributed commercially
+- ❌ **Service Offerings**: Cannot be used to provide commercial services to third parties
+
+### **Commercial Licensing:**
+
+For commercial use, enterprise licensing, or service provider applications, please contact the project maintainers for a commercial license agreement.
+
+### **Repository Protection:**
+
+While this repository is public for transparency and community learning, **commercial usage requires proper licensing**. Please respect these terms and contribute to the open-source community responsibly.
 
 *LinkedIn Audience Engagement AI - Enhancing professional relationships through intelligent automation.*
