@@ -158,12 +158,6 @@ to accelerate adoption?"
 - **RapidAPI Key** - For LinkedIn data retrieval
 - **LinkedIn Developer Credentials** - Client ID, Secret, and Access Token
 
-**⚠️ CRITICAL**: This repository does not contain any API keys or credentials. You must:
-1. Register for each service individually
-2. Obtain your own API keys
-3. Never commit your `.env` file to version control
-4. Keep your credentials secure and private
-
 ### **Prerequisites for Success**
 
 Before implementation, ensure you have:
