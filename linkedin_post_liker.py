@@ -172,7 +172,7 @@ class PostLiker:
         }
 
     def get_posts_to_like(self) -> List[Dict]:
-        """Get posts from profiles in week1_liking status with recent posts."""
+        """Get posts from profiles in week1_liking status with recent posts (max 3 per profile)."""
         try:
             conn = self.get_db_connection()
             cursor = conn.cursor()
@@ -204,11 +204,32 @@ class PostLiker:
             logger.debug(f"Executing query: {query}")
             cursor.execute(query)
             
-            posts = [dict(row) for row in cursor.fetchall()]
+            all_posts = [dict(row) for row in cursor.fetchall()]
             conn.close()
             
-            logger.info(f"Found {len(posts)} posts ready for liking")
-            return posts
+            # Apply per-profile rate limiting (max 3 posts per profile)
+            if not all_posts:
+                logger.info("No posts found that need liking")
+                return []
+            
+            profile_counts = {}
+            filtered_posts = []
+            
+            for post in all_posts:
+                profile_id = post['profile_id']
+                current_count = profile_counts.get(profile_id, 0)
+                
+                if current_count < 3:  # Max 3 posts per profile
+                    filtered_posts.append(post)
+                    profile_counts[profile_id] = current_count + 1
+            
+            logger.info(f"Found {len(filtered_posts)} posts ready for liking (max 3 per profile)")
+            if len(all_posts) != len(filtered_posts):
+                profiles_limited = len([p for p in profile_counts.values() if p >= 3])
+                logger.info(f"Rate limiting applied: {len(all_posts)} total posts → {len(filtered_posts)} posts "
+                           f"({profiles_limited} profiles hit the 3-post limit)")
+            
+            return filtered_posts
             
         except Exception as e:
             logger.error(f"Error getting posts to like: {e}")

@@ -1,0 +1,65 @@
+select content_id,main_content from content_pieces
+where content_status = 'APPROVED'
+and linkedin_urn is NULL
+
+
+SELECT *
+FROM profiles
+WHERE status = 'week3_invitation'
+AND connection_status ='prospect'
+
+
+UPDATE profiles
+SET status = 'maintenance'
+WHERE status = 'week3_invitation'
+AND connection_status ='current_connection'
+
+
+
+
+SELECT *
+FROM profiles
+WHERE 
+    -- Exclude Product Management Roles (Case-Insensitive)
+    LOWER(job_title) NOT LIKE '%product manag%' AND
+    LOWER(job_title) NOT LIKE '%product officer%' AND
+    LOWER(job_title) NOT LIKE '%product owner%' AND
+    LOWER(job_title) NOT LIKE '%head of product%' AND
+
+    -- Exclude Entrepreneurial Roles (Case-Insensitive)
+    LOWER(job_title) NOT LIKE '%founder%' AND
+    LOWER(job_title) NOT LIKE '%entrepreneur%' AND
+    LOWER(job_title) NOT LIKE '%cofounder%' AND
+
+    -- Exclude specific C-Suite, Business, Sales, and Marketing Roles (Case-Insensitive)
+    -- This section is intentionally specific to avoid filtering out technical leaders.
+    LOWER(job_title) NOT LIKE '%ceo%' AND
+    LOWER(job_title) NOT LIKE '%chief executive officer%' AND
+    LOWER(job_title) NOT LIKE '%chief operating officer%' AND
+    LOWER(job_title) NOT LIKE '%chief financial officer%' AND
+    LOWER(job_title) NOT LIKE '%chief marketing officer%' AND
+    LOWER(job_title) NOT LIKE '%chief revenue officer%' AND
+    LOWER(job_title) NOT LIKE '%managing director%' AND
+    LOWER(job_title) NOT LIKE '%general manager%' AND
+    LOWER(job_title) NOT LIKE '%general partner%' AND
+    LOWER(job_title) NOT LIKE '%managing partner%' AND
+    LOWER(job_title) NOT LIKE '%business develop%' AND
+    LOWER(job_title) NOT LIKE '%vp of sales%' AND
+    LOWER(job_title) NOT LIKE '%director of sales%' AND
+    LOWER(job_title) NOT LIKE '%head of sales%' AND
+    LOWER(job_title) NOT LIKE '%sales director%' AND
+    LOWER(job_title) NOT LIKE '%sales manager%' AND
+    LOWER(job_title) NOT LIKE '%vp of marketing%' AND
+    LOWER(job_title) NOT LIKE '%director of marketing%' AND
+    LOWER(job_title) NOT LIKE '%head of marketing%' AND
+    LOWER(job_title) NOT LIKE '%marketing director%' AND
+    LOWER(job_title) NOT LIKE '%marketing manager%' AND
+    LOWER(job_title) NOT LIKE '%account executive%' AND
+    LOWER(job_title) NOT LIKE '%client partner%' AND
+    LOWER(job_title) NOT LIKE '%strategic account%' AND
+
+    -- Exclude Recruitment Roles (Case-Insensitive)
+    LOWER(job_title) NOT LIKE '%recruit%' AND
+    LOWER(job_title) NOT LIKE '%talent acquisition%' AND
+    LOWER(job_title) NOT LIKE '%headhunter%' AND
+    LOWER(job_title) NOT LIKE '%sourcer%';

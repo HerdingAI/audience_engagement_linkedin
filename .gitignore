@@ -211,3 +211,14 @@ Code_W_Other_API_Endpoints/
 
 # Ignore success report file
 Complete_System_Success_Report.md
+
+# LinkedIn-specific files
+*.sqlite3
+*.sqlite3-*
+linkedin_*.log
+comment_poster.log
+csv_importer.log
+post_*.log
+*_prospects_*.csv
+Week*_to_invite/
+multimedia/

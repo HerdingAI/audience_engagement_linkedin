@@ -2,6 +2,7 @@
 import logging
 import os
 import sys
+import argparse
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -60,6 +61,38 @@ def validate_environment() -> bool:
 
 def main():
     """Main function to process one LinkedIn post"""
+    
+    # Parse command line arguments
+    parser = argparse.ArgumentParser(description="LinkedIn Comment Generator and Poster")
+    parser.add_argument(
+        "--max-posts", 
+        type=int, 
+        default=10, 
+        help="Maximum number of posts to process (default: 10)"
+    )
+    parser.add_argument(
+        "--db-path",
+        type=str,
+        default="linkedin_project_db.sqlite3",
+        help="Path to the SQLite database file"
+    )
+    parser.add_argument(
+        "--log-level",
+        choices=["DEBUG", "INFO", "WARNING", "ERROR"],
+        default="INFO",
+        help="Set the logging level"
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Run in dry-run mode (don't actually post comments)"
+    )
+    
+    args = parser.parse_args()
+    
+    # Set logging level
+    logging.getLogger().setLevel(getattr(logging, args.log_level))
+    
     try:
         logger.info("=== LinkedIn Commenter Starting ===")
         
@@ -96,7 +129,10 @@ def main():
         
         # Process posts in a loop (one at a time through the graph)
         posts_processed = 0
-        max_posts = 10  # Set a reasonable limit to prevent infinite loops
+        max_posts = args.max_posts  # Use command line argument
+        
+        if args.dry_run:
+            logger.info("Running in DRY-RUN mode - no comments will be posted")
         
         while posts_processed < max_posts:
             logger.info(f"Processing post {posts_processed + 1}...")

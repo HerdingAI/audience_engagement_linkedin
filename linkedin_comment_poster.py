@@ -171,7 +171,7 @@ class CommentPoster:
         }
 
     def get_comments_to_post(self) -> List[Dict]:
-        """Get generated comments for profiles in week2_commenting status with recent posts."""
+        """Get generated comments for profiles in week2_commenting status with recent posts (max 2 per profile)."""
         try:
             conn = self.get_db_connection()
             cursor = conn.cursor()
@@ -196,11 +196,32 @@ class CommentPoster:
                 ORDER BY profiles.job_title_score DESC, posts.posted_date DESC
             """)
             
-            comments = [dict(row) for row in cursor.fetchall()]
+            all_comments = [dict(row) for row in cursor.fetchall()]
             conn.close()
             
-            logger.info(f"Found {len(comments)} comments ready for posting")
-            return comments
+            # Apply per-profile rate limiting (max 2 comments per profile)
+            if not all_comments:
+                logger.info("No comments found that need posting")
+                return []
+            
+            profile_counts = {}
+            filtered_comments = []
+            
+            for comment in all_comments:
+                profile_id = comment['profile_id']
+                current_count = profile_counts.get(profile_id, 0)
+                
+                if current_count < 2:  # Max 2 comments per profile
+                    filtered_comments.append(comment)
+                    profile_counts[profile_id] = current_count + 1
+            
+            logger.info(f"Found {len(filtered_comments)} comments ready for posting (max 2 per profile)")
+            if len(all_comments) != len(filtered_comments):
+                profiles_limited = len([p for p in profile_counts.values() if p >= 2])
+                logger.info(f"Rate limiting applied: {len(all_comments)} total comments → {len(filtered_comments)} comments "
+                           f"({profiles_limited} profiles hit the 2-comment limit)")
+            
+            return filtered_comments
             
         except Exception as e:
             logger.error(f"Error getting comments to post: {e}")

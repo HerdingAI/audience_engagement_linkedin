@@ -1,2 +1,1 @@
-# backend/linkedin/__init__.py
-"""LinkedIn Commenter Package"""
+"""LinkedIn automation modules."""

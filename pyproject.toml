@@ -1,0 +1,162 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "linkedin-engagement"
+version = "1.0.0"
+description = "A Python-based automation suite for LinkedIn engagement"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Data-Carlos"},
+]
+maintainers = [
+    {name = "Data-Carlos"},
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Communications",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+]
+keywords = ["linkedin", "automation", "engagement", "ai", "social-media"]
+requires-python = ">=3.10"
+dependencies = [
+    "python-dotenv==1.1.1",
+    "requests==2.32.4",
+    "pandas==2.3.1",
+    "openai==1.96.1",
+    "google-generativeai==0.8.5",
+    "tavily-python==0.7.9",
+    "langchain==0.3.26",
+    "langchain-core==0.3.69",
+    "langchain-text-splitters==0.3.8",
+    "langgraph==0.5.3",
+    "langgraph-checkpoint==2.1.1",
+    "langgraph-prebuilt==0.5.2",
+    "langgraph-sdk==0.1.73",
+    "langsmith==0.4.6",
+    "SQLAlchemy==2.0.41",
+    "schedule==1.2.2",
+    "beautifulsoup4==4.13.4",
+    "lxml==6.0.0",
+    "httpx==0.28.1",
+    "pydantic==2.11.7",
+    "typing_extensions==4.14.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "pytest-mock>=3.10.0",
+    "black>=23.0.0",
+    "isort>=5.12.0",
+    "flake8>=6.0.0",
+    "mypy>=1.5.0",
+    "bandit>=1.7.5",
+    "pre-commit>=3.0.0",
+]
+docs = [
+    "mkdocs>=1.5.0",
+    "mkdocs-material>=9.0.0",
+]
+
+[project.scripts]
+linkedin-commenter = "linkedin_commenter:main"
+linkedin-post-liker = "linkedin_post_liker:main"
+linkedin-comment-poster = "linkedin_comment_poster:main"
+
+[project.urls]
+Homepage = "https://github.com/Data-Carlos/LinkedIn-engagement"
+Repository = "https://github.com/Data-Carlos/LinkedIn-engagement.git"
+Issues = "https://github.com/Data-Carlos/LinkedIn-engagement/issues"
+Documentation = "https://github.com/Data-Carlos/LinkedIn-engagement#readme"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["backend*", "tests*"]
+
+[tool.setuptools.package-data]
+"*" = ["*.md", "*.txt", "*.yml", "*.yaml"]
+
+# Black configuration
+[tool.black]
+line-length = 88
+target-version = ['py310']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+)/
+'''
+
+# isort configuration
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+line_length = 88
+known_first_party = ["backend"]
+
+# pytest configuration
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q --strict-markers"
+testpaths = ["tests"]
+python_files = ["test_*.py", "*_test.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+
+# mypy configuration
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_no_return = true
+warn_unreachable = true
+strict_equality = true
+
+# Coverage configuration
+[tool.coverage.run]
+source = ["backend", "linkedin_commenter", "linkedin_post_liker", "linkedin_comment_poster"]
+omit = ["tests/*", "setup.py", "*/migrations/*"]
+
+[tool.coverage.report]
+precision = 2
+show_missing = true
+skip_covered = false
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if self.debug:",
+    "if settings.DEBUG",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if 0:",
+    "if __name__ == .__main__.:",
+    "class .*\\bProtocol\\):",
+    "@(abc\\.)?abstractmethod",
+]
